@@ -1,0 +1,17 @@
+{
+  "dsa-playlists": {
+    "title": "DSA Playlists",
+    "description": "Best Data Structures and Algorithms playlists on YouTube.",
+    "items": []
+  },
+  "dbms-playlists": {
+    "title": "Core Subjects Playlists",
+    "description": "Best CS Fundamentals (DBMS, OS, CN) playlists.",
+    "items": []
+  },
+  "system-design-playlists": {
+    "title": "System Design Playlists",
+    "description": "Best System Design playlists for interviews.",
+    "items": []
+  }
+}

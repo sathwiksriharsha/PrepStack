@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sumit",
+    "name": "Sumit Resume Template",
+    "image": "/_astro/Sumit_resume_template.BjLvWvqD.jpg",
+    "link": "https://drive.google.com/file/d/15q1IynZHQV1rZbtLAXontQe3ABlg2Z6D/view?usp=drive_link"
+  },
+  {
+    "id": "harshibar",
+    "name": "Harshibar Resume Template",
+    "image": "/_astro/harshibar_resume_template.CeF7vncD.jpeg",
+    "link": "https://drive.google.com/file/d/1sIdI8DvlWykAUueGnluiY5QnBaZ6bmpn/view?usp=drive_link"
+  },
+  {
+    "id": "jake",
+    "name": "Jake Ryan Resume Template",
+    "image": "/_astro/jake_ryan_resume_template.CB4h0ZiI.jpeg",
+    "link": "https://drive.google.com/file/d/17Kx1PIjKPQwkkbvLHYeww--XRrLc_Ugy/view?usp=drive_link"
+  },
+  {
+    "id": "omar",
+    "name": "Omar Macias Resume Template",
+    "image": "/_astro/omar_macias_resume_template.DX9LIHTs.jpeg",
+    "link": "https://drive.google.com/file/d/1rOqt4Om-Lyq5XPz7bN7rzNqt__FYLKN-/view?usp=drive_link"
+  },
+  {
+    "id": "harvard",
+    "name": "Harvard Resume Template",
+    "image": "/_astro/harvard_resume_template.Ce7c2X_r.jpeg",
+    "link": "https://drive.google.com/file/d/1JCuPOEaCXMJlWdJ6xfkhCOleb-7x-Apc/view?usp=drive_link"
+  },
+  {
+    "id": "deedy",
+    "name": "Deedy Resume Template",
+    "image": "/_astro/Deedy_resume_template.BZA120eu.jpeg",
+    "link": "https://drive.google.com/file/d/11ygl9Lgl-goCUmNC6U8yUFwtMoFO5Gn1/view?usp=drive_link"
+  }
+]

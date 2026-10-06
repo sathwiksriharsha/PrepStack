@@ -1,0 +1,95 @@
+{
+  "dashboard": "/preparation",
+  "sections": {
+    "sheets": {
+      "label": "Sheets",
+      "items": [
+        {
+          "label": "DSA Sheets",
+          "href": "/preparation/dsa-sheets",
+          "icon": "FileCode"
+        },
+        {
+          "label": "Company Wise DSA",
+          "href": "/preparation/company-wise-dsa-sheet",
+          "icon": "Building2"
+        },
+        {
+          "label": "20 DSA Patterns",
+          "href": "/preparation/20-essential-dsa-patterns",
+          "icon": "Fingerprint"
+        },
+        {
+          "label": "Package Wise DSA",
+          "href": "/preparation/package-wise-dsa-sheet",
+          "icon": "BadgeDollarSign"
+        },
+        {
+          "label": "SQL Sheet",
+          "href": "/preparation/sql-sheet",
+          "icon": "Database"
+        },
+        {
+          "label": "System Design Sheet",
+          "href": "/preparation/system-design-sheet",
+          "icon": "Boxes"
+        }
+      ]
+    },
+    "learning": {
+      "label": "Start Learning",
+      "items": [
+        {
+          "label": "DSA Playlists",
+          "href": "/preparation/dsa-playlists",
+          "icon": "MonitorPlay"
+        },
+        {
+          "label": "Core Subjects",
+          "href": "/preparation/dbms-playlists",
+          "icon": "BookOpen"
+        },
+        {
+          "label": "System Design Playlists",
+          "href": "/preparation/system-design-playlists",
+          "icon": "Boxes"
+        }
+      ]
+    },
+    "resources": {
+      "label": "Resources",
+      "items": [
+        {
+          "label": "Role Wise",
+          "href": "/preparation/role-wise",
+          "icon": "Users"
+        },
+        {
+          "label": "Interview Questions",
+          "href": "/preparation/most-asked-questions",
+          "icon": "Sparkles"
+        },
+        {
+          "label": "HR Questions",
+          "href": "/preparation/hr-questions",
+          "icon": "MessageSquare"
+        },
+        {
+          "label": "Cold Email Templates",
+          "href": "/preparation/cold-email-templets",
+          "icon": "Mail"
+        },
+        {
+          "label": "Cool Notes",
+          "href": "/preparation/notes",
+          "icon": "NotebookText"
+        },
+        {
+          "label": "Resume Templates",
+          "href": "/preparation/resume-templates",
+          "icon": "FileText"
+        }
+      ]
+    }
+  }
+}

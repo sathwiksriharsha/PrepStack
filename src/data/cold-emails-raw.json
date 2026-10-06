@@ -1,0 +1,278 @@
+[
+  {},
+  {
+    "categories": [
+      {
+        "title": "Tech Stack Specific",
+        "templates": [
+          {
+            "id": "mern-stack-referral",
+            "title": "MERN Stack Developer - Job Referral Request",
+            "role": "MERN Stack Developer",
+            "category": "Tech Stack Specific"
+          },
+          {
+            "id": "react-developer-referral",
+            "title": "React Developer - Job Referral Request",
+            "role": "React Developer",
+            "category": "Tech Stack Specific"
+          },
+          {
+            "id": "nodejs-backend-referral",
+            "title": "Node.js Backend Developer - Job Referral Request",
+            "role": "Node.js Backend Developer",
+            "category": "Tech Stack Specific"
+          },
+          {
+            "id": "fullstack-developer-referral",
+            "title": "Full Stack Developer - Job Referral Request",
+            "role": "Full Stack Developer",
+            "category": "Tech Stack Specific"
+          },
+          {
+            "id": "vue-developer-referral",
+            "title": "Vue.js Developer - Job Referral Request",
+            "role": "Vue.js Developer",
+            "category": "Tech Stack Specific"
+          },
+          {
+            "id": "angular-developer-referral",
+            "title": "Angular Developer - Job Referral Request",
+            "role": "Angular Developer",
+            "category": "Tech Stack Specific"
+          },
+          {
+            "id": "python-django-referral",
+            "title": "Python/Django Developer - Job Referral Request",
+            "role": "Python/Django Developer",
+            "category": "Tech Stack Specific"
+          }
+        ]
+      },
+      {
+        "title": "Cloud & DevOps",
+        "templates": [
+          {
+            "id": "devops-engineer-referral",
+            "title": "DevOps Engineer - Job Referral Request",
+            "role": "DevOps Engineer",
+            "category": "Cloud & DevOps"
+          },
+          {
+            "id": "aws-cloud-engineer-referral",
+            "title": "AWS Cloud Engineer - Job Referral Request",
+            "role": "AWS Cloud Engineer",
+            "category": "Cloud & DevOps"
+          }
+        ]
+      },
+      {
+        "title": "Data & AI/ML",
+        "templates": [
+          {
+            "id": "data-engineer-referral",
+            "title": "Data Engineer - Job Referral Request",
+            "role": "Data Engineer",
+            "category": "Data & AI/ML"
+          },
+          {
+            "id": "ml-ai-engineer-referral",
+            "title": "ML/AI Engineer - Job Referral Request",
+            "role": "ML/AI Engineer",
+            "category": "Data & AI/ML"
+          }
+        ]
+      },
+      {
+        "title": "Mobile Development",
+        "templates": [
+          {
+            "id": "mobile-react-native-referral",
+            "title": "React Native Developer - Job Referral Request",
+            "role": "React Native Developer",
+            "category": "Mobile Development"
+          },
+          {
+            "id": "flutter-developer-referral",
+            "title": "Flutter Developer - Job Referral Request",
+            "role": "Flutter Developer",
+            "category": "Mobile Development"
+          },
+          {
+            "id": "ios-swift-developer-referral",
+            "title": "iOS Developer (Swift) - Job Referral Request",
+            "role": "iOS Developer",
+            "category": "Mobile Development"
+          },
+          {
+            "id": "android-kotlin-developer-referral",
+            "title": "Android Developer (Kotlin) - Job Referral Request",
+            "role": "Android Developer",
+            "category": "Mobile Development"
+          }
+        ]
+      },
+      {
+        "title": "Networking & Learning",
+        "templates": [
+          {
+            "id": "senior-engineer-mentorship",
+            "title": "Request for Mentorship from Senior Engineer",
+            "role": "Any",
+            "category": "Networking & Learning"
+          }
+        ]
+      },
+      {
+        "title": "By Seniority Level",
+        "templates": [
+          {
+            "id": "startup-cto-outreach",
+            "title": "Reaching out to Startup CTO/Founder",
+            "role": "Any",
+            "category": "By Seniority Level"
+          },
+          {
+            "id": "ceo-outreach",
+            "title": "Reaching out to CEO",
+            "role": "Any",
+            "category": "By Seniority Level"
+          },
+          {
+            "id": "engineering-manager-outreach",
+            "title": "Reaching out to Engineering Manager",
+            "role": "Any",
+            "category": "By Seniority Level"
+          },
+          {
+            "id": "vp-engineering-outreach",
+            "title": "Reaching out to VP of Engineering",
+            "role": "Senior/Staff Level",
+            "category": "By Seniority Level"
+          },
+          {
+            "id": "founding-engineer-outreach",
+            "title": "Reaching out to Founding Engineer",
+            "role": "Any",
+            "category": "By Seniority Level"
+          },
+          {
+            "id": "tech-lead-outreach",
+            "title": "Reaching out to Tech Lead",
+            "role": "Any",
+            "category": "By Seniority Level"
+          },
+          {
+            "id": "director-engineering-outreach",
+            "title": "Reaching out to Director of Engineering",
+            "role": "Senior Level",
+            "category": "By Seniority Level"
+          }
+        ]
+      },
+      {
+        "title": "Collaboration",
+        "templates": [
+          {
+            "id": "opensource-contribution-request",
+            "title": "Open Source Contribution - Seeking Guidance",
+            "role": "Any",
+            "category": "Collaboration"
+          }
+        ]
+      },
+      {
+        "title": "Job Related",
+        "templates": [
+          {
+            "id": "referral-no-job-posting",
+            "title": "Exploring Opportunities (No Specific Job Posting)",
+            "role": "Any",
+            "category": "Job Related"
+          },
+          {
+            "id": "internship-referral",
+            "title": "Internship Referral Request",
+            "role": "Student/Intern",
+            "category": "Job Related"
+          },
+          {
+            "id": "freelance-project-inquiry",
+            "title": "Freelance Project Inquiry",
+            "role": "Freelancer",
+            "category": "Job Related"
+          }
+        ]
+      },
+      {
+        "title": "By Relationship",
+        "templates": [
+          {
+            "id": "alumni-referral",
+            "title": "Reaching out to College Alumni for Referral",
+            "role": "Any",
+            "category": "By Relationship"
+          },
+          {
+            "id": "linkedin-post-engagement",
+            "title": "Reaching out After Engaging with LinkedIn Post",
+            "role": "Any",
+            "category": "By Relationship"
+          }
+        ]
+      },
+      {
+        "title": "Unique Scenarios",
+        "templates": [
+          {
+            "id": "cold-email-after-rejection",
+            "title": "Reaching out After Getting Rejected - Seeking Feedback",
+            "role": "Any",
+            "category": "Unique Scenarios"
+          },
+          {
+            "id": "career-transition-referral",
+            "title": "Career Transition - Seeking Referral",
+            "role": "Career Switcher",
+            "category": "Unique Scenarios"
+          },
+          {
+            "id": "conference-followup",
+            "title": "Following up After Meeting at Conference/Event",
+            "role": "Any",
+            "category": "Unique Scenarios"
+          },
+          {
+            "id": "company-funding-congratulations",
+            "title": "Congratulating on Funding Round",
+            "role": "Any",
+            "category": "Unique Scenarios"
+          }
+        ]
+      },
+      {
+        "title": "Specialized Roles",
+        "templates": [
+          {
+            "id": "blockchain-web3-referral",
+            "title": "Blockchain/Web3 Developer - Job Referral Request",
+            "role": "Blockchain/Web3 Developer",
+            "category": "Specialized Roles"
+          },
+          {
+            "id": "security-engineer-referral",
+            "title": "Security Engineer - Job Referral Request",
+            "role": "Security Engineer",
+            "category": "Specialized Roles"
+          },
+          {
+            "id": "qa-automation-engineer-referral",
+            "title": "QA Automation Engineer - Job Referral Request",
+            "role": "QA Automation Engineer",
+            "category": "Specialized Roles"
+          }
+        ]
+      }
+    ]
+  }
+]

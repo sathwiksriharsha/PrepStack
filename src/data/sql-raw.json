@@ -1,0 +1,781 @@
+[
+  {},
+  {
+    "title": "Top 110 Most Asked SQL Interview Queries",
+    "description": "Comprehensive collection of the most frequently asked SQL query interview questions. Covers SELECT operations, JOINs, subqueries, aggregations, window functions, and complex real-world scenarios. Each query is production-ready and commonly asked in technical interviews at top companies.",
+    "questions": [
+      {
+        "index": 1,
+        "title": "Select all records from a table",
+        "answer": "SELECT * FROM employees;",
+        "difficulty": "Beginner",
+        "category": "Basic SELECT"
+      },
+      {
+        "index": 2,
+        "title": "Select specific columns from a table",
+        "answer": "SELECT first_name, last_name, salary FROM employees;",
+        "difficulty": "Beginner",
+        "category": "Basic SELECT"
+      },
+      {
+        "index": 3,
+        "title": "Filter records using WHERE clause",
+        "answer": "SELECT * FROM employees WHERE salary > 50000;",
+        "difficulty": "Beginner",
+        "category": "Filtering"
+      },
+      {
+        "index": 4,
+        "title": "Sort records in ascending order",
+        "answer": "SELECT * FROM employees ORDER BY salary ASC;",
+        "difficulty": "Beginner",
+        "category": "Sorting"
+      },
+      {
+        "index": 5,
+        "title": "Sort records in descending order",
+        "answer": "SELECT * FROM employees ORDER BY salary DESC;",
+        "difficulty": "Beginner",
+        "category": "Sorting"
+      },
+      {
+        "index": 6,
+        "title": "Count total number of records in a table",
+        "answer": "SELECT COUNT(*) FROM employees;",
+        "difficulty": "Beginner",
+        "category": "Aggregation"
+      },
+      {
+        "index": 7,
+        "title": "Find the maximum salary",
+        "answer": "SELECT MAX(salary) FROM employees;",
+        "difficulty": "Beginner",
+        "category": "Aggregation"
+      },
+      {
+        "index": 8,
+        "title": "Find the minimum salary",
+        "answer": "SELECT MIN(salary) FROM employees;",
+        "difficulty": "Beginner",
+        "category": "Aggregation"
+      },
+      {
+        "index": 9,
+        "title": "Calculate the average salary",
+        "answer": "SELECT AVG(salary) FROM employees;",
+        "difficulty": "Beginner",
+        "category": "Aggregation"
+      },
+      {
+        "index": 10,
+        "title": "Find the sum of all salaries",
+        "answer": "SELECT SUM(salary) FROM employees;",
+        "difficulty": "Beginner",
+        "category": "Aggregation"
+      },
+      {
+        "index": 11,
+        "title": "Display the first 5 records in SQL",
+        "answer": "SELECT * FROM employees LIMIT 5;",
+        "difficulty": "Beginner",
+        "category": "Limiting Results"
+      },
+      {
+        "index": 12,
+        "title": "Find distinct values in a column",
+        "answer": "SELECT DISTINCT department FROM employees;",
+        "difficulty": "Beginner",
+        "category": "Distinct"
+      },
+      {
+        "index": 13,
+        "title": "Filter records with multiple conditions using AND",
+        "answer": "SELECT * FROM employees WHERE salary > 50000 AND department = 'IT';",
+        "difficulty": "Beginner",
+        "category": "Filtering"
+      },
+      {
+        "index": 14,
+        "title": "Filter records with multiple conditions using OR",
+        "answer": "SELECT * FROM employees WHERE department = 'IT' OR department = 'HR';",
+        "difficulty": "Beginner",
+        "category": "Filtering"
+      },
+      {
+        "index": 15,
+        "title": "Find records where a column value is NULL",
+        "answer": "SELECT * FROM employees WHERE manager_id IS NULL;",
+        "difficulty": "Beginner",
+        "category": "NULL Handling"
+      },
+      {
+        "index": 16,
+        "title": "Find records where a column value is NOT NULL",
+        "answer": "SELECT * FROM employees WHERE manager_id IS NOT NULL;",
+        "difficulty": "Beginner",
+        "category": "NULL Handling"
+      },
+      {
+        "index": 17,
+        "title": "Find records using the LIKE operator",
+        "answer": "SELECT * FROM employees WHERE first_name LIKE 'A%';",
+        "difficulty": "Beginner",
+        "category": "Pattern Matching"
+      },
+      {
+        "index": 18,
+        "title": "Find records using the IN operator",
+        "answer": "SELECT * FROM employees WHERE department IN ('IT', 'HR', 'Finance');",
+        "difficulty": "Beginner",
+        "category": "Filtering"
+      },
+      {
+        "index": 19,
+        "title": "Find records within a range using BETWEEN",
+        "answer": "SELECT * FROM employees WHERE salary BETWEEN 40000 AND 80000;",
+        "difficulty": "Beginner",
+        "category": "Filtering"
+      },
+      {
+        "index": 20,
+        "title": "Alias column names",
+        "answer": "SELECT first_name AS 'First Name', salary AS 'Annual Salary' FROM employees;",
+        "difficulty": "Beginner",
+        "category": "Aliases"
+      },
+      {
+        "index": 21,
+        "title": "Concatenate two columns",
+        "answer": "SELECT CONCAT(first_name, ' ', last_name) AS full_name FROM employees;",
+        "difficulty": "Beginner",
+        "category": "String Operations"
+      },
+      {
+        "index": 22,
+        "title": "Convert text to uppercase",
+        "answer": "SELECT UPPER(first_name) FROM employees;",
+        "difficulty": "Beginner",
+        "category": "String Operations"
+      },
+      {
+        "index": 23,
+        "title": "Convert text to lowercase",
+        "answer": "SELECT LOWER(first_name) FROM employees;",
+        "difficulty": "Beginner",
+        "category": "String Operations"
+      },
+      {
+        "index": 24,
+        "title": "Get the current date",
+        "answer": "SELECT CURDATE(); -- MySQL\nSELECT GETDATE(); -- SQL Server\nSELECT CURRENT_DATE; -- PostgreSQL",
+        "difficulty": "Beginner",
+        "category": "Date Functions"
+      },
+      {
+        "index": 25,
+        "title": "Get the length of a string",
+        "answer": "SELECT LENGTH(first_name) FROM employees; -- MySQL\nSELECT LEN(first_name) FROM employees; -- SQL Server",
+        "difficulty": "Beginner",
+        "category": "String Operations"
+      },
+      {
+        "index": 26,
+        "title": "Round a number to 2 decimal places",
+        "answer": "SELECT ROUND(salary, 2) FROM employees;",
+        "difficulty": "Beginner",
+        "category": "Numeric Functions"
+      },
+      {
+        "index": 27,
+        "title": "Find employees with salary greater than 50000",
+        "answer": "SELECT * FROM employees WHERE salary > 50000;",
+        "difficulty": "Beginner",
+        "category": "Filtering"
+      },
+      {
+        "index": 28,
+        "title": "Find the first name starting with 'A'",
+        "answer": "SELECT * FROM employees WHERE first_name LIKE 'A%';",
+        "difficulty": "Beginner",
+        "category": "Pattern Matching"
+      },
+      {
+        "index": 29,
+        "title": "Sort by multiple columns",
+        "answer": "SELECT * FROM employees ORDER BY department ASC, salary DESC;",
+        "difficulty": "Beginner",
+        "category": "Sorting"
+      },
+      {
+        "index": 30,
+        "title": "Use NOT operator",
+        "answer": "SELECT * FROM employees WHERE NOT department = 'IT';",
+        "difficulty": "Beginner",
+        "category": "Filtering"
+      },
+      {
+        "index": 31,
+        "title": "Find the number of employees in each department",
+        "answer": "SELECT department, COUNT(*) AS employee_count FROM employees GROUP BY department;",
+        "difficulty": "Intermediate",
+        "category": "GROUP BY"
+      },
+      {
+        "index": 32,
+        "title": "Get the highest salary in each department",
+        "answer": "SELECT department, MAX(salary) AS max_salary FROM employees GROUP BY department;",
+        "difficulty": "Intermediate",
+        "category": "GROUP BY"
+      },
+      {
+        "index": 33,
+        "title": "Find departments with more than 5 employees",
+        "answer": "SELECT department, COUNT(*) AS emp_count FROM employees GROUP BY department HAVING COUNT(*) > 5;",
+        "difficulty": "Intermediate",
+        "category": "HAVING Clause"
+      },
+      {
+        "index": 34,
+        "title": "Find duplicate emails in the Employee table",
+        "answer": "SELECT email, COUNT(*) FROM employees GROUP BY email HAVING COUNT(*) > 1;",
+        "difficulty": "Intermediate",
+        "category": "Duplicates"
+      },
+      {
+        "index": 35,
+        "title": "Display duplicate records with their count",
+        "answer": "SELECT email, COUNT(*) AS duplicate_count FROM employees GROUP BY email HAVING COUNT(*) > 1;",
+        "difficulty": "Intermediate",
+        "category": "Duplicates"
+      },
+      {
+        "index": 36,
+        "title": "Delete duplicate records from a table",
+        "answer": "DELETE FROM employees WHERE id NOT IN (SELECT MIN(id) FROM employees GROUP BY email);",
+        "difficulty": "Intermediate",
+        "category": "Data Manipulation"
+      },
+      {
+        "index": 37,
+        "title": "Find employees without managers",
+        "answer": "SELECT * FROM employees WHERE manager_id IS NULL;",
+        "difficulty": "Intermediate",
+        "category": "NULL Handling"
+      },
+      {
+        "index": 38,
+        "title": "Find employees joined in the last 3 months",
+        "answer": "SELECT * FROM employees WHERE join_date >= DATE_SUB(CURDATE(), INTERVAL 3 MONTH);",
+        "difficulty": "Intermediate",
+        "category": "Date Operations"
+      },
+      {
+        "index": 39,
+        "title": "Fetch the last 3 records in SQL",
+        "answer": "SELECT * FROM employees ORDER BY id DESC LIMIT 3;",
+        "difficulty": "Intermediate",
+        "category": "Limiting Results"
+      },
+      {
+        "index": 40,
+        "title": "Fetch alternate rows (odd rows) from a table",
+        "answer": "SELECT * FROM (SELECT *, ROW_NUMBER() OVER (ORDER BY id) AS row_num FROM employees) AS temp WHERE row_num % 2 = 1;",
+        "difficulty": "Intermediate",
+        "category": "Row Operations"
+      },
+      {
+        "index": 41,
+        "title": "Fetch even rows from a table",
+        "answer": "SELECT * FROM (SELECT *, ROW_NUMBER() OVER (ORDER BY id) AS row_num FROM employees) AS temp WHERE row_num % 2 = 0;",
+        "difficulty": "Intermediate",
+        "category": "Row Operations"
+      },
+      {
+        "index": 42,
+        "title": "Find the second highest salary",
+        "answer": "SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employees);",
+        "difficulty": "Intermediate",
+        "category": "Subqueries"
+      },
+      {
+        "index": 43,
+        "title": "Find the Nth highest salary",
+        "answer": "SELECT DISTINCT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET N-1;",
+        "difficulty": "Intermediate",
+        "category": "Ranking"
+      },
+      {
+        "index": 44,
+        "title": "Find the highest salary without using MAX()",
+        "answer": "SELECT salary FROM employees ORDER BY salary DESC LIMIT 1;",
+        "difficulty": "Intermediate",
+        "category": "Alternatives"
+      },
+      {
+        "index": 45,
+        "title": "Swap two column values",
+        "answer": "UPDATE employees SET first_name = last_name, last_name = first_name; -- Not recommended\n-- Better approach using temp:\nUPDATE employees SET first_name = (@temp := first_name), first_name = last_name, last_name = @temp;",
+        "difficulty": "Intermediate",
+        "category": "Data Manipulation"
+      },
+      {
+        "index": 46,
+        "title": "Perform INNER JOIN between two tables",
+        "answer": "SELECT e.first_name, d.department_name FROM employees e INNER JOIN departments d ON e.department_id = d.id;",
+        "difficulty": "Intermediate",
+        "category": "JOINs"
+      },
+      {
+        "index": 47,
+        "title": "Perform LEFT JOIN",
+        "answer": "SELECT e.first_name, d.department_name FROM employees e LEFT JOIN departments d ON e.department_id = d.id;",
+        "difficulty": "Intermediate",
+        "category": "JOINs"
+      },
+      {
+        "index": 48,
+        "title": "Perform RIGHT JOIN",
+        "answer": "SELECT e.first_name, d.department_name FROM employees e RIGHT JOIN departments d ON e.department_id = d.id;",
+        "difficulty": "Intermediate",
+        "category": "JOINs"
+      },
+      {
+        "index": 49,
+        "title": "Perform FULL OUTER JOIN",
+        "answer": "SELECT e.first_name, d.department_name FROM employees e FULL OUTER JOIN departments d ON e.department_id = d.id;",
+        "difficulty": "Intermediate",
+        "category": "JOINs"
+      },
+      {
+        "index": 50,
+        "title": "Perform SELF JOIN",
+        "answer": "SELECT e1.first_name AS employee, e2.first_name AS manager FROM employees e1 LEFT JOIN employees e2 ON e1.manager_id = e2.id;",
+        "difficulty": "Intermediate",
+        "category": "JOINs"
+      },
+      {
+        "index": 51,
+        "title": "Fetch common records from two tables without JOIN",
+        "answer": "SELECT * FROM employees WHERE department_id IN (SELECT id FROM departments);",
+        "difficulty": "Intermediate",
+        "category": "Subqueries"
+      },
+      {
+        "index": 52,
+        "title": "Use UNION to combine results",
+        "answer": "SELECT first_name FROM employees WHERE department = 'IT' UNION SELECT first_name FROM employees WHERE department = 'HR';",
+        "difficulty": "Intermediate",
+        "category": "Set Operations"
+      },
+      {
+        "index": 53,
+        "title": "Use UNION ALL",
+        "answer": "SELECT first_name FROM employees WHERE department = 'IT' UNION ALL SELECT first_name FROM employees WHERE department = 'HR';",
+        "difficulty": "Intermediate",
+        "category": "Set Operations"
+      },
+      {
+        "index": 54,
+        "title": "Find employees whose salary is above average",
+        "answer": "SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);",
+        "difficulty": "Intermediate",
+        "category": "Subqueries"
+      },
+      {
+        "index": 55,
+        "title": "Find the department with the highest employee count",
+        "answer": "SELECT department, COUNT(*) AS emp_count FROM employees GROUP BY department ORDER BY emp_count DESC LIMIT 1;",
+        "difficulty": "Intermediate",
+        "category": "GROUP BY"
+      },
+      {
+        "index": 56,
+        "title": "Create a copy of a table",
+        "answer": "CREATE TABLE employees_backup AS SELECT * FROM employees;",
+        "difficulty": "Intermediate",
+        "category": "DDL"
+      },
+      {
+        "index": 57,
+        "title": "Copy only structure (not data)",
+        "answer": "CREATE TABLE employees_structure LIKE employees;",
+        "difficulty": "Intermediate",
+        "category": "DDL"
+      },
+      {
+        "index": 58,
+        "title": "Insert data from one table to another",
+        "answer": "INSERT INTO employees_backup SELECT * FROM employees;",
+        "difficulty": "Intermediate",
+        "category": "Data Manipulation"
+      },
+      {
+        "index": 59,
+        "title": "Update records based on a condition",
+        "answer": "UPDATE employees SET salary = salary * 1.10 WHERE department = 'IT';",
+        "difficulty": "Intermediate",
+        "category": "Data Manipulation"
+      },
+      {
+        "index": 60,
+        "title": "Delete records based on a condition",
+        "answer": "DELETE FROM employees WHERE join_date < '2020-01-01';",
+        "difficulty": "Intermediate",
+        "category": "Data Manipulation"
+      },
+      {
+        "index": 61,
+        "title": "Find employees with names containing 'an'",
+        "answer": "SELECT * FROM employees WHERE first_name LIKE '%an%';",
+        "difficulty": "Intermediate",
+        "category": "Pattern Matching"
+      },
+      {
+        "index": 62,
+        "title": "Find employees whose names start with A and end with N",
+        "answer": "SELECT * FROM employees WHERE first_name LIKE 'A%N';",
+        "difficulty": "Intermediate",
+        "category": "Pattern Matching"
+      },
+      {
+        "index": 63,
+        "title": "Use CASE statement for conditional logic",
+        "answer": "SELECT first_name, salary, CASE WHEN salary > 70000 THEN 'High' WHEN salary > 40000 THEN 'Medium' ELSE 'Low' END AS salary_grade FROM employees;",
+        "difficulty": "Intermediate",
+        "category": "Conditional Logic"
+      },
+      {
+        "index": 64,
+        "title": "Find employees hired in a specific year",
+        "answer": "SELECT * FROM employees WHERE YEAR(join_date) = 2023;",
+        "difficulty": "Intermediate",
+        "category": "Date Operations"
+      },
+      {
+        "index": 65,
+        "title": "Calculate age from date of birth",
+        "answer": "SELECT first_name, TIMESTAMPDIFF(YEAR, date_of_birth, CURDATE()) AS age FROM employees;",
+        "difficulty": "Intermediate",
+        "category": "Date Operations"
+      },
+      {
+        "index": 66,
+        "title": "Get the day, month, and year from a date",
+        "answer": "SELECT DAY(join_date) AS day, MONTH(join_date) AS month, YEAR(join_date) AS year FROM employees;",
+        "difficulty": "Intermediate",
+        "category": "Date Operations"
+      },
+      {
+        "index": 67,
+        "title": "Find records from the last 7 days",
+        "answer": "SELECT * FROM employees WHERE join_date >= DATE_SUB(CURDATE(), INTERVAL 7 DAY);",
+        "difficulty": "Intermediate",
+        "category": "Date Operations"
+      },
+      {
+        "index": 68,
+        "title": "Add a new column to a table",
+        "answer": "ALTER TABLE employees ADD COLUMN phone VARCHAR(15);",
+        "difficulty": "Intermediate",
+        "category": "DDL"
+      },
+      {
+        "index": 69,
+        "title": "Drop a column from a table",
+        "answer": "ALTER TABLE employees DROP COLUMN phone;",
+        "difficulty": "Intermediate",
+        "category": "DDL"
+      },
+      {
+        "index": 70,
+        "title": "Rename a column",
+        "answer": "ALTER TABLE employees RENAME COLUMN old_name TO new_name;",
+        "difficulty": "Intermediate",
+        "category": "DDL"
+      },
+      {
+        "index": 71,
+        "title": "Use ROW_NUMBER() to rank employees by salary",
+        "answer": "SELECT first_name, salary, ROW_NUMBER() OVER (ORDER BY salary DESC) AS rank FROM employees;",
+        "difficulty": "Advanced",
+        "category": "Window Functions"
+      },
+      {
+        "index": 72,
+        "title": "Use RANK() function",
+        "answer": "SELECT first_name, salary, RANK() OVER (ORDER BY salary DESC) AS rank FROM employees;",
+        "difficulty": "Advanced",
+        "category": "Window Functions"
+      },
+      {
+        "index": 73,
+        "title": "Use DENSE_RANK() function",
+        "answer": "SELECT first_name, salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS dense_rank FROM employees;",
+        "difficulty": "Advanced",
+        "category": "Window Functions"
+      },
+      {
+        "index": 74,
+        "title": "Find the top 3 salaries in each department",
+        "answer": "SELECT * FROM (SELECT first_name, department, salary, DENSE_RANK() OVER (PARTITION BY department ORDER BY salary DESC) AS rank FROM employees) AS ranked WHERE rank <= 3;",
+        "difficulty": "Advanced",
+        "category": "Window Functions"
+      },
+      {
+        "index": 75,
+        "title": "Use PARTITION BY in window functions",
+        "answer": "SELECT first_name, department, salary, AVG(salary) OVER (PARTITION BY department) AS dept_avg_salary FROM employees;",
+        "difficulty": "Advanced",
+        "category": "Window Functions"
+      },
+      {
+        "index": 76,
+        "title": "Calculate running total of salaries",
+        "answer": "SELECT first_name, salary, SUM(salary) OVER (ORDER BY id) AS running_total FROM employees;",
+        "difficulty": "Advanced",
+        "category": "Window Functions"
+      },
+      {
+        "index": 77,
+        "title": "Find the difference between current and previous row",
+        "answer": "SELECT first_name, salary, salary - LAG(salary) OVER (ORDER BY id) AS salary_diff FROM employees;",
+        "difficulty": "Advanced",
+        "category": "Window Functions"
+      },
+      {
+        "index": 78,
+        "title": "Use LEAD() to get the next row value",
+        "answer": "SELECT first_name, salary, LEAD(salary) OVER (ORDER BY id) AS next_salary FROM employees;",
+        "difficulty": "Advanced",
+        "category": "Window Functions"
+      },
+      {
+        "index": 79,
+        "title": "Find employees earning more than their manager",
+        "answer": "SELECT e.first_name, e.salary FROM employees e JOIN employees m ON e.manager_id = m.id WHERE e.salary > m.salary;",
+        "difficulty": "Advanced",
+        "category": "Complex JOINs"
+      },
+      {
+        "index": 80,
+        "title": "Find employees with the same salary",
+        "answer": "SELECT e1.first_name, e1.salary FROM employees e1 JOIN employees e2 ON e1.salary = e2.salary AND e1.id != e2.id;",
+        "difficulty": "Advanced",
+        "category": "Complex JOINs"
+      },
+      {
+        "index": 81,
+        "title": "Use CTE (Common Table Expression)",
+        "answer": "WITH high_earners AS (SELECT * FROM employees WHERE salary > 70000) SELECT * FROM high_earners;",
+        "difficulty": "Advanced",
+        "category": "CTE"
+      },
+      {
+        "index": 82,
+        "title": "Use recursive CTE to show employee hierarchy",
+        "answer": "WITH RECURSIVE emp_hierarchy AS (SELECT id, first_name, manager_id, 1 AS level FROM employees WHERE manager_id IS NULL UNION ALL SELECT e.id, e.first_name, e.manager_id, eh.level + 1 FROM employees e JOIN emp_hierarchy eh ON e.manager_id = eh.id) SELECT * FROM emp_hierarchy;",
+        "difficulty": "Advanced",
+        "category": "Recursive CTE"
+      },
+      {
+        "index": 83,
+        "title": "Pivot data (rows to columns)",
+        "answer": "SELECT first_name, MAX(CASE WHEN year = 2021 THEN salary END) AS '2021', MAX(CASE WHEN year = 2022 THEN salary END) AS '2022', MAX(CASE WHEN year = 2023 THEN salary END) AS '2023' FROM employee_salaries GROUP BY first_name;",
+        "difficulty": "Advanced",
+        "category": "Pivoting"
+      },
+      {
+        "index": 84,
+        "title": "Unpivot data (columns to rows)",
+        "answer": "SELECT first_name, 'Jan' AS month, jan_sales AS sales FROM sales UNION ALL SELECT first_name, 'Feb', feb_sales FROM sales UNION ALL SELECT first_name, 'Mar', mar_sales FROM sales;",
+        "difficulty": "Advanced",
+        "category": "Unpivoting"
+      },
+      {
+        "index": 85,
+        "title": "Find employees with salary greater than all in HR department",
+        "answer": "SELECT * FROM employees WHERE salary > ALL (SELECT salary FROM employees WHERE department = 'HR');",
+        "difficulty": "Advanced",
+        "category": "Subqueries"
+      },
+      {
+        "index": 86,
+        "title": "Find employees with salary greater than any in HR department",
+        "answer": "SELECT * FROM employees WHERE salary > ANY (SELECT salary FROM employees WHERE department = 'HR');",
+        "difficulty": "Advanced",
+        "category": "Subqueries"
+      },
+      {
+        "index": 87,
+        "title": "Use EXISTS clause",
+        "answer": "SELECT * FROM employees e WHERE EXISTS (SELECT 1 FROM departments d WHERE d.id = e.department_id);",
+        "difficulty": "Advanced",
+        "category": "Subqueries"
+      },
+      {
+        "index": 88,
+        "title": "Find departments with no employees",
+        "answer": "SELECT d.* FROM departments d WHERE NOT EXISTS (SELECT 1 FROM employees e WHERE e.department_id = d.id);",
+        "difficulty": "Advanced",
+        "category": "Subqueries"
+      },
+      {
+        "index": 89,
+        "title": "Find the median salary",
+        "answer": "SELECT AVG(salary) AS median FROM (SELECT salary, ROW_NUMBER() OVER (ORDER BY salary) AS row_num, COUNT(*) OVER () AS total_count FROM employees) AS temp WHERE row_num IN (FLOOR((total_count + 1) / 2), CEIL((total_count + 1) / 2));",
+        "difficulty": "Advanced",
+        "category": "Statistical Functions"
+      },
+      {
+        "index": 90,
+        "title": "Find the mode (most frequent value)",
+        "answer": "SELECT salary FROM employees GROUP BY salary ORDER BY COUNT(*) DESC LIMIT 1;",
+        "difficulty": "Advanced",
+        "category": "Statistical Functions"
+      },
+      {
+        "index": 91,
+        "title": "Calculate cumulative percentage",
+        "answer": "SELECT first_name, salary, SUM(salary) OVER (ORDER BY salary) * 100.0 / SUM(salary) OVER () AS cumulative_percentage FROM employees;",
+        "difficulty": "Advanced",
+        "category": "Window Functions"
+      },
+      {
+        "index": 92,
+        "title": "Find gaps in sequential numbers",
+        "answer": "SELECT id + 1 AS missing_id FROM employees e WHERE NOT EXISTS (SELECT 1 FROM employees WHERE id = e.id + 1) AND id < (SELECT MAX(id) FROM employees);",
+        "difficulty": "Advanced",
+        "category": "Gap Analysis"
+      },
+      {
+        "index": 93,
+        "title": "Create a dense sequence of numbers",
+        "answer": "WITH RECURSIVE numbers AS (SELECT 1 AS n UNION ALL SELECT n + 1 FROM numbers WHERE n < 100) SELECT n FROM numbers;",
+        "difficulty": "Advanced",
+        "category": "Recursive CTE"
+      },
+      {
+        "index": 94,
+        "title": "Find consecutive login dates",
+        "answer": "WITH login_groups AS (SELECT user_id, login_date, ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY login_date) AS rn, DATE_SUB(login_date, INTERVAL ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY login_date) DAY) AS grp FROM user_logins) SELECT user_id, MIN(login_date) AS start_date, MAX(login_date) AS end_date, COUNT(*) AS consecutive_days FROM login_groups GROUP BY user_id, grp HAVING COUNT(*) >= 3;",
+        "difficulty": "Advanced",
+        "category": "Date Sequences"
+      },
+      {
+        "index": 95,
+        "title": "Calculate moving average",
+        "answer": "SELECT first_name, salary, AVG(salary) OVER (ORDER BY id ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) AS moving_avg FROM employees;",
+        "difficulty": "Advanced",
+        "category": "Window Functions"
+      },
+      {
+        "index": 96,
+        "title": "Find year-over-year growth",
+        "answer": "SELECT year, revenue, LAG(revenue) OVER (ORDER BY year) AS prev_year_revenue, (revenue - LAG(revenue) OVER (ORDER BY year)) * 100.0 / LAG(revenue) OVER (ORDER BY year) AS yoy_growth FROM company_revenue;",
+        "difficulty": "Advanced",
+        "category": "Analytics"
+      },
+      {
+        "index": 97,
+        "title": "Implement full-text search",
+        "answer": "SELECT * FROM articles WHERE MATCH(title, content) AGAINST('database optimization' IN NATURAL LANGUAGE MODE);",
+        "difficulty": "Advanced",
+        "category": "Full-Text Search"
+      },
+      {
+        "index": 98,
+        "title": "Find the longest streak of consecutive events",
+        "answer": "WITH streaks AS (SELECT event_date, ROW_NUMBER() OVER (ORDER BY event_date) - ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY event_date) AS streak_group FROM user_events) SELECT COUNT(*) AS longest_streak FROM streaks GROUP BY user_id, streak_group ORDER BY longest_streak DESC LIMIT 1;",
+        "difficulty": "Advanced",
+        "category": "Streak Analysis"
+      },
+      {
+        "index": 99,
+        "title": "Implement pagination efficiently",
+        "answer": "SELECT * FROM employees WHERE id > (SELECT id FROM employees ORDER BY id LIMIT 20 OFFSET 0) ORDER BY id LIMIT 20;",
+        "difficulty": "Advanced",
+        "category": "Performance"
+      },
+      {
+        "index": 100,
+        "title": "Find overlapping date ranges",
+        "answer": "SELECT e1.first_name, e2.first_name FROM employee_projects e1 JOIN employee_projects e2 ON e1.project_id = e2.project_id AND e1.id < e2.id WHERE e1.start_date <= e2.end_date AND e1.end_date >= e2.start_date;",
+        "difficulty": "Advanced",
+        "category": "Date Range Analysis"
+      },
+      {
+        "index": 101,
+        "title": "Find the top performing employee in each department",
+        "answer": "SELECT * FROM (SELECT first_name, department, sales, RANK() OVER (PARTITION BY department ORDER BY sales DESC) AS rank FROM employees) AS ranked WHERE rank = 1;",
+        "difficulty": "Advanced",
+        "category": "Window Functions"
+      },
+      {
+        "index": 102,
+        "title": "Calculate retention rate",
+        "answer": "SELECT ROUND(COUNT(DISTINCT CASE WHEN month_diff = 1 THEN user_id END) * 100.0 / COUNT(DISTINCT user_id), 2) AS retention_rate FROM (SELECT user_id, DATEDIFF(MONTH, LAG(login_date) OVER (PARTITION BY user_id ORDER BY login_date), login_date) AS month_diff FROM user_logins) AS temp;",
+        "difficulty": "Advanced",
+        "category": "Analytics"
+      },
+      {
+        "index": 103,
+        "title": "Transpose rows into comma-separated values",
+        "answer": "SELECT department, GROUP_CONCAT(first_name ORDER BY first_name SEPARATOR ', ') AS employees FROM employees GROUP BY department;",
+        "difficulty": "Advanced",
+        "category": "String Aggregation"
+      },
+      {
+        "index": 104,
+        "title": "Find customers who purchased both Product A and Product B",
+        "answer": "SELECT customer_id FROM purchases WHERE product_name = 'Product A' INTERSECT SELECT customer_id FROM purchases WHERE product_name = 'Product B';",
+        "difficulty": "Advanced",
+        "category": "Set Operations"
+      },
+      {
+        "index": 105,
+        "title": "Calculate percentile rank",
+        "answer": "SELECT first_name, salary, PERCENT_RANK() OVER (ORDER BY salary) AS percentile_rank FROM employees;",
+        "difficulty": "Advanced",
+        "category": "Window Functions"
+      },
+      {
+        "index": 106,
+        "title": "Find the first and last record in each group",
+        "answer": "SELECT department, FIRST_VALUE(first_name) OVER (PARTITION BY department ORDER BY join_date) AS first_employee, LAST_VALUE(first_name) OVER (PARTITION BY department ORDER BY join_date ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) AS last_employee FROM employees;",
+        "difficulty": "Advanced",
+        "category": "Window Functions"
+      },
+      {
+        "index": 107,
+        "title": "Implement a cross join",
+        "answer": "SELECT e.first_name, d.department_name FROM employees e CROSS JOIN departments d;",
+        "difficulty": "Advanced",
+        "category": "JOINs"
+      },
+      {
+        "index": 108,
+        "title": "Find employees with maximum experience in each department",
+        "answer": "SELECT * FROM (SELECT *, RANK() OVER (PARTITION BY department ORDER BY DATEDIFF(CURDATE(), join_date) DESC) AS rank FROM employees) AS ranked WHERE rank = 1;",
+        "difficulty": "Advanced",
+        "category": "Window Functions"
+      },
+      {
+        "index": 109,
+        "title": "Calculate the difference between max and min salary per department",
+        "answer": "SELECT department, MAX(salary) - MIN(salary) AS salary_range FROM employees GROUP BY department;",
+        "difficulty": "Advanced",
+        "category": "Aggregation"
+      },
+      {
+        "index": 110,
+        "title": "Find all employees who report to the same manager",
+        "answer": "SELECT e1.first_name, e1.manager_id FROM employees e1 WHERE e1.manager_id IN (SELECT manager_id FROM employees GROUP BY manager_id HAVING COUNT(*) > 1);",
+        "difficulty": "Advanced",
+        "category": "GROUP BY"
+      }
+    ],
+    "storageKey": "sql-sheet-progress",
+    "totalQuestions": 110
+  }
+]

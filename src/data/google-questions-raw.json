@@ -1,0 +1,760 @@
+[
+  {},
+  {
+    "companyName": "Google",
+    "description": "Master the Google DSA interview with this ultra-curated, high-yield tracking sheet designed specifically for freshers, SDE-1, and SDE-2 aspirants. This comprehensive problem-set features 55 of the most frequently asked Google coding interview questions across top-tier data structures and algorithms—including advanced graph traversals, sliding windows, and system-design APIs. Every question is rigorously categorized by real candidate frequencies, core patterns, and precise platform links from LeetCode and GeeksforGeeks, providing you with a high-impact roadmap to crack Google's highly selective technical loop and confidently clear your dream coding assessment.",
+    "logoSrc": "/assets/companyWise/google.webp",
+    "totalQuestions": 55,
+    "questions": [
+      {
+        "index": 1,
+        "question_name": "Two Sum",
+        "tags": [
+          "Array",
+          "Hash Table"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/two-sum/",
+        "difficulty": "Easy",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 2,
+        "question_name": "Longest Substring Without Repeating Characters",
+        "tags": [
+          "String",
+          "Sliding Window",
+          "Hash Table"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 3,
+        "question_name": "Container With Most Water",
+        "tags": [
+          "Array",
+          "Two Pointers",
+          "Greedy"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/container-with-most-water/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 4,
+        "question_name": "Next Permutation",
+        "tags": [
+          "Array",
+          "Two Pointers"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/next-permutation/",
+        "difficulty": "Medium",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 5,
+        "question_name": "Trapping Rain Water",
+        "tags": [
+          "Array",
+          "Two Pointers",
+          "Dynamic Programming",
+          "Monotonic Stack"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/trapping-rain-water/",
+        "difficulty": "Hard",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 6,
+        "question_name": "Minimum Window Substring",
+        "tags": [
+          "String",
+          "Sliding Window",
+          "Hash Table"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/minimum-window-substring/",
+        "difficulty": "Hard",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 7,
+        "question_name": "Sliding Window Maximum",
+        "tags": [
+          "Array",
+          "Queue",
+          "Sliding Window",
+          "Monotonic Queue",
+          "Heap"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/sliding-window-maximum/",
+        "difficulty": "Hard",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 8,
+        "question_name": "Subarray Sum Equals K",
+        "tags": [
+          "Array",
+          "Hash Table",
+          "Prefix Sum"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/subarray-sum-equals-k/",
+        "difficulty": "Medium",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 9,
+        "question_name": "Product of Array Except Self",
+        "tags": [
+          "Array",
+          "Prefix Sum"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/product-of-array-except-self/",
+        "difficulty": "Medium",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 10,
+        "question_name": "Merge Intervals",
+        "tags": [
+          "Array",
+          "Sorting"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/merge-intervals/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 11,
+        "question_name": "Insert Interval",
+        "tags": [
+          "Array"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/insert-interval/",
+        "difficulty": "Medium",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 12,
+        "question_name": "Meeting Rooms II",
+        "tags": [
+          "Array",
+          "Sorting",
+          "Heap",
+          "Greedy"
+        ],
+        "platform_name": "GeeksforGeeks",
+        "platform_link": "https://www.geeksforgeeks.org/problems/attend-all-meetings-ii/1",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 13,
+        "question_name": "Clone Graph",
+        "tags": [
+          "Hash Table",
+          "Graph",
+          "Depth-First Search",
+          "Breadth-First Search"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/clone-graph/",
+        "difficulty": "Medium",
+        "question_popularity": "Warm"
+      },
+      {
+        "index": 14,
+        "question_name": "Number of Islands",
+        "tags": [
+          "Array",
+          "Graph",
+          "Depth-First Search",
+          "Breadth-First Search",
+          "Union Find"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/number-of-islands/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 15,
+        "question_name": "Course Schedule",
+        "tags": [
+          "Graph",
+          "Depth-First Search",
+          "Breadth-First Search",
+          "Topological Sort"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/course-schedule/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 16,
+        "question_name": "Course Schedule II",
+        "tags": [
+          "Graph",
+          "Depth-First Search",
+          "Breadth-First Search",
+          "Topological Sort"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/course-schedule-ii/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 17,
+        "question_name": "Graph Valid Tree",
+        "tags": [
+          "Graph",
+          "Depth-First Search",
+          "Breadth-First Search",
+          "Union Find"
+        ],
+        "platform_name": "GeeksforGeeks",
+        "platform_link": "https://www.geeksforgeeks.org/check-given-graph-tree/",
+        "difficulty": "Medium",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 18,
+        "question_name": "Alien Dictionary",
+        "tags": [
+          "Array",
+          "String",
+          "Graph",
+          "Topological Sort"
+        ],
+        "platform_name": "GeeksforGeeks",
+        "platform_link": "https://www.geeksforgeeks.org/problems/alien-dictionary/1",
+        "difficulty": "Hard",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 19,
+        "question_name": "Longest Increasing Path in a Matrix",
+        "tags": [
+          "Array",
+          "Graph",
+          "Depth-First Search",
+          "Dynamic Programming",
+          "Memoization"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+        "difficulty": "Hard",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 20,
+        "question_name": "Evaluate Division",
+        "tags": [
+          "Array",
+          "String",
+          "Graph",
+          "Depth-First Search",
+          "Breadth-First Search",
+          "Union Find"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/evaluate-division/",
+        "difficulty": "Medium",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 21,
+        "question_name": "Pacific Atlantic Water Flow",
+        "tags": [
+          "Array",
+          "Matrix",
+          "Depth-First Search",
+          "Breadth-First Search"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+        "difficulty": "Medium",
+        "question_popularity": "Warm"
+      },
+      {
+        "index": 22,
+        "question_name": "Redundant Connection",
+        "tags": [
+          "Graph",
+          "Depth-First Search",
+          "Breadth-First Search",
+          "Union Find"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/redundant-connection/",
+        "difficulty": "Medium",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 23,
+        "question_name": "Bus Routes",
+        "tags": [
+          "Array",
+          "Hash Table",
+          "Graph",
+          "Breadth-First Search"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/bus-routes/",
+        "difficulty": "Hard",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 24,
+        "question_name": "Word Ladder",
+        "tags": [
+          "Hash Table",
+          "String",
+          "Graph",
+          "Breadth-First Search"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/word-ladder/",
+        "difficulty": "Hard",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 25,
+        "question_name": "Rotting Oranges",
+        "tags": [
+          "Array",
+          "Matrix",
+          "Breadth-First Search"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/rotting-oranges/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 26,
+        "question_name": "LRU Cache",
+        "tags": [
+          "Hash Table",
+          "Linked List",
+          "Design",
+          "Doubly-Linked List"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/lru-cache/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 27,
+        "question_name": "Implement Trie (Prefix Tree)",
+        "tags": [
+          "String",
+          "Design",
+          "Trie",
+          "Hash Table"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+        "difficulty": "Medium",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 28,
+        "question_name": "Design Add and Search Words Data Structure",
+        "tags": [
+          "String",
+          "Depth-First Search",
+          "Design",
+          "Trie"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+        "difficulty": "Medium",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 29,
+        "question_name": "Encode and Decode Strings",
+        "tags": [
+          "Array",
+          "String",
+          "Design"
+        ],
+        "platform_name": "GeeksforGeeks",
+        "platform_link": "https://www.geeksforgeeks.org/encode-and-decode-strings/",
+        "difficulty": "Medium",
+        "question_popularity": "Warm"
+      },
+      {
+        "index": 30,
+        "question_name": "Find Median from Data Stream",
+        "tags": [
+          "Two Heaps",
+          "Design",
+          "Heap",
+          "Sorting",
+          "Data Stream"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/find-median-from-data-stream/",
+        "difficulty": "Hard",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 31,
+        "question_name": "Serialize and Deserialize Binary Tree",
+        "tags": [
+          "String",
+          "Tree",
+          "Depth-First Search",
+          "Breadth-First Search",
+          "Binary Tree",
+          "Design"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+        "difficulty": "Hard",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 32,
+        "question_name": "Insert Delete GetRandom O(1)",
+        "tags": [
+          "Array",
+          "Hash Table",
+          "Math",
+          "Design",
+          "Randomized"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+        "difficulty": "Medium",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 33,
+        "question_name": "LFU Cache",
+        "tags": [
+          "Hash Table",
+          "Linked List",
+          "Design",
+          "Doubly-Linked List"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/lfu-cache/",
+        "difficulty": "Hard",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 34,
+        "question_name": "Regular Expression Matching",
+        "tags": [
+          "String",
+          "Dynamic Programming",
+          "Recursion"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/regular-expression-matching/",
+        "difficulty": "Hard",
+        "question_popularity": "Warm"
+      },
+      {
+        "index": 35,
+        "question_name": "Generate Parentheses",
+        "tags": [
+          "String",
+          "Dynamic Programming",
+          "Backtracking"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/generate-parentheses/",
+        "difficulty": "Medium",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 36,
+        "question_name": "Word Break",
+        "tags": [
+          "Array",
+          "Hash Table",
+          "String",
+          "Dynamic Programming",
+          "Trie",
+          "Memoization"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/word-break/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 37,
+        "question_name": "Longest Increasing Subsequence",
+        "tags": [
+          "Array",
+          "Binary Search",
+          "Dynamic Programming"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/longest-increasing-subsequence/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 38,
+        "question_name": "Russian Doll Envelopes",
+        "tags": [
+          "Array",
+          "Binary Search",
+          "Dynamic Programming",
+          "Sorting"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/russian-doll-envelopes/",
+        "difficulty": "Hard",
+        "question_popularity": "Warm"
+      },
+      {
+        "index": 39,
+        "question_name": "Target Sum",
+        "tags": [
+          "Array",
+          "Dynamic Programming",
+          "Backtracking"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/target-sum/",
+        "difficulty": "Medium",
+        "question_popularity": "Warm"
+      },
+      {
+        "index": 40,
+        "question_name": "Median of Two Sorted Arrays",
+        "tags": [
+          "Array",
+          "Binary Search",
+          "Divide and Conquer"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+        "difficulty": "Hard",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 41,
+        "question_name": "Merge k Sorted Lists",
+        "tags": [
+          "Linked List",
+          "Divide and Conquer",
+          "Heap",
+          "Merge Sort"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/merge-k-sorted-lists/",
+        "difficulty": "Hard",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 42,
+        "question_name": "Search in Rotated Sorted Array",
+        "tags": [
+          "Array",
+          "Binary Search"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 43,
+        "question_name": "The Skyline Problem",
+        "tags": [
+          "Array",
+          "Divide and Conquer",
+          "Binary Indexed Tree",
+          "Segment Tree",
+          "Line Sweep",
+          "Heap"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/the-skyline-problem/",
+        "difficulty": "Hard",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 44,
+        "question_name": "Basic Calculator",
+        "tags": [
+          "Math",
+          "String",
+          "Stack"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/basic-calculator/",
+        "difficulty": "Hard",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 45,
+        "question_name": "Expression Add Operators",
+        "tags": [
+          "String",
+          "Backtracking",
+          "Math"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/expression-add-operators/",
+        "difficulty": "Hard",
+        "question_popularity": "Cold"
+      },
+      {
+        "index": 46,
+        "question_name": "Decode String",
+        "tags": [
+          "String",
+          "Stack",
+          "Recursion"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/decode-string/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 47,
+        "question_name": "Binary Tree Level Order Traversal",
+        "tags": [
+          "Tree",
+          "Breadth-First Search",
+          "Binary Tree"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 48,
+        "question_name": "Binary Tree Maximum Path Sum",
+        "tags": [
+          "Dynamic Programming",
+          "Tree",
+          "Depth-First Search",
+          "Binary Tree"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+        "difficulty": "Hard",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 49,
+        "question_name": "Lowest Common Ancestor of a Binary Tree",
+        "tags": [
+          "Tree",
+          "Depth-First Search",
+          "Binary Tree"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 50,
+        "question_name": "Coin Change",
+        "tags": [
+          "Array",
+          "Dynamic Programming",
+          "Breadth-First Search"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/coin-change/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 51,
+        "question_name": "Edit Distance",
+        "tags": [
+          "String",
+          "Dynamic Programming"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/edit-distance/",
+        "difficulty": "Medium",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 52,
+        "question_name": "Decode Ways",
+        "tags": [
+          "String",
+          "Dynamic Programming"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/decode-ways/",
+        "difficulty": "Medium",
+        "question_popularity": "Hot"
+      },
+      {
+        "index": 53,
+        "question_name": "Reverse Linked List",
+        "tags": [
+          "Linked List",
+          "Recursion"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/reverse-linked-list/",
+        "difficulty": "Easy",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 54,
+        "question_name": "Linked List Cycle",
+        "tags": [
+          "Linked List",
+          "Hash Table",
+          "Two Pointers"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/linked-list-cycle/",
+        "difficulty": "Easy",
+        "question_popularity": "Very Hot"
+      },
+      {
+        "index": 55,
+        "question_name": "Top K Frequent Elements",
+        "tags": [
+          "Array",
+          "Hash Table",
+          "Divide and Conquer",
+          "Sorting",
+          "Heap",
+          "Bucket Sort"
+        ],
+        "platform_name": "LeetCode",
+        "platform_link": "https://leetcode.com/problems/top-k-frequent-elements/",
+        "difficulty": "Medium",
+        "question_popularity": "Very Hot"
+      }
+    ],
+    "storageKey": "company-dsa-google"
+  }
+]

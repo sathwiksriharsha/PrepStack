@@ -1,0 +1,322 @@
+[
+  {},
+  {
+    "companies": [
+      {
+        "name": "Google",
+        "description": "Master the Google DSA interview with this ultra-curated, high-yield tracking sheet designed specifically for freshers, SDE-1, and SDE-2 aspirants. This comprehensive problem-set features 55 of the most frequently asked Google coding interview questions across top-tier data structures and algorithms—including advanced graph traversals, sliding windows, and system-design APIs. Every question is rigorously categorized by real candidate frequencies, core patterns, and precise platform links from LeetCode and GeeksforGeeks, providing you with a high-impact roadmap to crack Google's highly selective technical loop and confidently clear your dream coding assessment.",
+        "questionCount": 55,
+        "logoSrc": "/_astro/google.DPyZoF1C.webp",
+        "href": "/preparation/company-wise-dsa-sheet/google-dsa-interview-questions"
+      },
+      {
+        "name": "Meta",
+        "description": "Crack the high-speed Meta coding interview with this ultra-optimized DSA preparation sheet engineered for freshers, SDE-1, SDE-2, and Production Engineering aspirants. Meta's technical loop is legendary for its strict time constraints, requiring candidates to flawlessly execute clean, bug-free solutions to two algorithmic problems within a tight 45-minute window. This verified dataset provides 60 of the most frequently tracked Meta coding questions, focusing intensely on speed-critical patterns like optimized Two Pointers, String parsers, Graph traversals, Binary Tree manipulations, and Binary Search variations. Equipping your site users with real-world candidate frequency metrics and direct LeetCode and GeeksforGeeks links, this sheet is built to maximize user traction and interview success rates.",
+        "questionCount": 60,
+        "logoSrc": "/_astro/meta.gTPc3ByK.webp",
+        "href": "/preparation/company-wise-dsa-sheet/meta-dsa-interview-questions"
+      },
+      {
+        "name": "Microsoft",
+        "description": "Accelerate your tech career with the ultimate Microsoft DSA interview preparation sheet, meticulously tailored for freshers, SDE-1, SDE-2, and IDC aspirants. This data-driven problem set features 55 of the most frequently tracked Microsoft coding interview questions, compiled directly from recent Online Assessments (OA) and technical onsite loops. Heavily focusing on Microsoft's favorite core archetypes—including optimized string manipulation, matrix traversals, tree balancing, dynamic programming, and thread-safe design patterns—this comprehensive list provides verified LeetCode and GeeksforGeeks links alongside real-world popularity tags to give your platform users a definitive edge in cracking the Microsoft technical round.",
+        "questionCount": 55,
+        "logoSrc": "/_astro/microsoft.CJgrtWir.webp",
+        "href": "/preparation/company-wise-dsa-sheet/microsoft-dsa-interview-questions"
+      },
+      {
+        "name": "Netflix",
+        "description": "Master the specialized technical requirements of the Netflix engineering loop with this curated, high-yield DSA interview preparation sheet, explicitly built for freshers, SDE-1, SDE-2, and Distributed Systems aspirants. Netflix interviews place an elite premium on low-latency architectural code, stream processing efficiency, and high-throughput data structures. This production-ready dataset contains 50 of the most frequently tracked Netflix coding interview questions across mission-critical patterns—including custom cache APIs, multi-heap data stream analytics, dynamic programming optimization, and real-time sliding window algorithms. Equipped with direct LeetCode and GeeksforGeeks links alongside candidate frequency rankings, this sheet will provide immense structural value and traction to your preparation platform.",
+        "questionCount": 50,
+        "logoSrc": "/_astro/netflix.9--qcHQb.webp",
+        "href": "/preparation/company-wise-dsa-sheet/netflix-dsa-interview-questions"
+      },
+      {
+        "name": "Amazon",
+        "description": "Cracking the Amazon technical interview requires a specialized strategic approach. This fully optimized Amazon DSA interview preparation sheet provides freshers, SDE-1, SDE-2, and AWS aspirants with 66 highly recurring coding questions collected from recent Online Assessments (OA) and virtual onsite loops. Amazon interviews focus extensively on resource optimization, stream processing, and custom design APIs—making patterns like Heaps (Priority Queues), Hash Tables, Two Pointers, and Dynamic Programming incredibly critical. Utilize this real-world dataset, complete with verified LeetCode and GeeksforGeeks links, to boost your platform's user retention and help candidates land their dream SDE role.",
+        "questionCount": 66,
+        "logoSrc": "/_astro/amazon.Iswnct9x.webp",
+        "href": "/preparation/company-wise-dsa-sheet/amazon-dsa-interview-questions"
+      },
+      {
+        "name": "Apple",
+        "description": "Master the core engineering expectations of Apple with this verified, high-yield DSA interview preparation sheet, strategically curated for freshers, hardware-software co-designers, SDE-1, and SDE-2 roles. Apple's technical loop places an exceptionally high priority on data structure efficiency, memory optimization, and pristine pointer manipulation. This dedicated problem set contains 55 of the most frequently asked Apple coding interview questions across fundamental patterns—including dual-pointer arrays, low-overhead string parsers, linked lists, matrix traversal algorithms, and robust cache architectures. Complete with direct LeetCode and GeeksforGeeks links along with real-time candidate popularity indicators, this dataset is designed to scale your site's organic search value and traction.",
+        "questionCount": 55,
+        "logoSrc": "/_astro/apple.V6khPPbS.webp",
+        "href": "/preparation/company-wise-dsa-sheet/apple-dsa-interview-questions"
+      },
+      {
+        "name": "LinkedIn",
+        "description": "Accelerate your premium tech placement preparation with the official LinkedIn DSA interview preparation sheet, custom-built for freshers, SDE-1, SDE-2, and Infrastructure Engineering aspirants. LinkedIn's global platform demands highly optimized algorithmic systems capable of managing complex social graph traversals, distributed feed logging, and high-concurrency connection mappings. This production-grade dataset features 56 of the most frequently tracked LinkedIn coding interview questions across mission-critical archetypes—including bi-directional graph routing, low-overhead string parsing, nested network hierarchy structures, and thread-safe design frameworks. Loaded with direct LeetCode and GeeksforGeeks links alongside real candidate popularity metrics, this tracking sheet will maximize your site's traction and organic search positioning.",
+        "questionCount": 56,
+        "logoSrc": "/_astro/linkedin.tW3mcI4m.webp",
+        "href": "/preparation/company-wise-dsa-sheet/linkedin-dsa-interview-questions"
+      },
+      {
+        "name": "Atlassian",
+        "description": "Accelerate your product company placement preparation with the official Atlassian DSA interview preparation sheet, custom-built for freshers, SDE-1, and SDE-2 aspirants. Atlassian's globally distributed collaboration ecosystem demands highly optimized logic capable of handling massive issue tracking workflows, real-time document sync matrices, and strict rate-limiting telemetry. This production-grade dataset features 55 of the most frequently tracked Atlassian coding interview questions across mission-critical archetypes—including custom token bucket rate limiters, graph-based workflow dependencies, text-editor tier structures, and custom memory caches. Integrated with direct LeetCode and GeeksforGeeks links alongside live candidate popularity metrics, this sheet will maximize your platform's user engagement and organic search traction.",
+        "questionCount": 55,
+        "logoSrc": "/_astro/atlassian.9PIGoSNH.webp",
+        "href": "/preparation/company-wise-dsa-sheet/atlassian-dsa-interview-questions"
+      },
+      {
+        "name": "Uber",
+        "description": "Cracking the Uber technical interview requires high proficiency in spatial computing and real-time data scaling. This comprehensive Uber DSA interview preparation sheet provides freshers, SDE-1, SDE-2, and Marketplace Engineering aspirants with 65 highly recurring coding questions aggregated from recent Online Assessments (OA) and virtual onsite loops. Uber's rigorous rounds uniquely focus on geographic constraints, matrix routing, line-sweep interval algorithms, and low-latency API architectures. Use this verified dataset—loaded with direct LeetCode and GeeksforGeeks links—to dramatically boost traffic and user engagement on your prep platform.",
+        "questionCount": 65,
+        "logoSrc": "/_astro/uber.D-jYcd0I.webp",
+        "href": "/preparation/company-wise-dsa-sheet/uber-dsa-interview-questions"
+      },
+      {
+        "name": "D.E. Shaw",
+        "description": "Gunning for a D.E. Shaw & Co. SDE, Quant, or Technology Analyst offer in 2026? This DSA sheet is built specifically around what D.E. Shaw actually tests — sharp fundamentals in arrays and strings, rigorous recursion and backtracking, probability-flavored math problems, and system-style design questions that mirror their quant-trading and asset-management stack. Known for interviews that blend classic data structures with analytical puzzle-solving, D.E. Shaw expects candidates to explain trade-offs clearly, not just produce working code. This sheet compiles 63 of the most frequently reported D.E. Shaw interview questions sourced exclusively from LeetCode and GeeksforGeeks, tagged by topic, difficulty, and real candidate-reported frequency — so your prep time goes toward problems that actually show up in the loop, not generic grinding.",
+        "questionCount": 63,
+        "logoSrc": "/_astro/deshaw.6Rlfg8E5.webp",
+        "href": "/preparation/company-wise-dsa-sheet/de-shaw-dsa-interview-questions"
+      },
+      {
+        "name": "Bloomberg",
+        "description": "Master the specialized technical expectations of the Bloomberg engineering loop with this curated, high-yield DSA interview preparation sheet, custom-engineered for freshers, SDE-1, and SDE-2 aspirants. Bloomberg's global fintech infrastructure demands highly stable algorithms capable of handling ultra-low-latency market data feeds, real-time security tickers, and complex order execution books. This production-grade dataset contains 62 of the most frequently tracked Bloomberg coding interview questions across mission-critical archetypes—including customized high-performance API designs, dual-heap streaming analytics, sliding window telemetry, and ordered string parsers. Loaded with direct LeetCode and GeeksforGeeks links alongside real candidate frequency tags, this asset will maximize user engagement and organic search traction for your platform.",
+        "questionCount": 62,
+        "logoSrc": "/_astro/bloomberg.CJSDdGiA.png",
+        "href": "/preparation/company-wise-dsa-sheet/bloomberg-dsa-interview-questions"
+      },
+      {
+        "name": "Tower Research Capital",
+        "description": "Preparing for Tower Research Capital's SDE or Quant Developer interview in 2026? This is the DSA sheet you need. Tower Research runs some of the toughest algorithmic rounds in the industry — expect deep dives into competitive-programming-style problems, bit manipulation, greedy proofs, advanced data structures, and math-heavy optimization, since every millisecond matters in a low-latency trading engine. This sheet curates 58 of the most frequently reported Tower Research interview questions from LeetCode and GeeksforGeeks, organized by pattern — arrays, DP, graphs, heaps, segment trees, and number theory — with real candidate-reported difficulty and popularity tags. Skip the guesswork, focus on what Tower Research actually asks, and walk into your interview with a genuine edge.",
+        "questionCount": 58,
+        "logoSrc": "/_astro/tower-research.DKGz_-P5.webp",
+        "href": "/preparation/company-wise-dsa-sheet/tower-research-dsa-interview-questions"
+      },
+      {
+        "name": "Stripe",
+        "description": "Interviewing at Stripe in 2026? Here's the DSA sheet built around what Stripe's coding rounds actually reward: clean, production-quality code over clever one-liners. Stripe's interviews are famous for practical, API-shaped problems — string parsing, rate limiters, payment retry logic, and object-oriented design — layered on top of core data structures like hash maps, trees, and graphs. Expect a strong emphasis on edge cases, readable code, and the ability to extend your solution when the interviewer changes the requirements mid-round. This sheet compiles 59 of the most frequently reported Stripe interview questions from LeetCode and GeeksforGeeks, tagged by topic, difficulty, and real candidate-reported popularity, so you can prep exactly what Stripe interviewers ask instead of grinding random problems.",
+        "questionCount": 59,
+        "logoSrc": "/_astro/stripe.B1ct6vz-.webp",
+        "href": "/preparation/company-wise-dsa-sheet/stripe-dsa-interview-questions"
+      },
+      {
+        "name": "PayPal",
+        "description": "Accelerate your product-tier fintech placement preparation with the official PayPal DSA interview preparation sheet, custom-built for freshers, SDE-1, and SDE-2 aspirants. PayPal's global scale financial infrastructure loops place a strict premium on reliable real-time payment settling algorithms, transaction audit tracking, and highly scalable caching patterns. This production-grade dataset features 55 of the most frequently asked PayPal coding interview questions across mission-critical archetypes—including transactional dynamic programming totals, graph-based security flows, dual-heap streaming analytics, and thread-safe cache designs. Integrated with direct LeetCode and GeeksforGeeks links alongside live candidate popularity metrics, this tracking sheet will maximize your platform's user engagement and organic search value.",
+        "questionCount": 55,
+        "logoSrc": "/_astro/paypal.DZiYaMd-.webp",
+        "href": "/preparation/company-wise-dsa-sheet/paypal-dsa-interview-questions"
+      },
+      {
+        "name": "Salesforce",
+        "description": "Accelerate your cloud-tier enterprise SaaS placement preparation with the official Salesforce DSA interview preparation sheet, custom-built for freshers, SDE-1, and SDE-2 aspirants. Salesforce's massive CRM and cloud infrastructure loops place a strict premium on robust data structure tenancy, custom object indexing, and low-latency API systems. This production-grade dataset features 53 of the most frequently asked Salesforce coding interview questions across mission-critical archetypes—including prefix evaluation trees, multi-tenant transaction caches, graph-based event workflows, and complex string parsing engines. Integrated with direct LeetCode and GeeksforGeeks links alongside live candidate popularity metrics, this tracking sheet will maximize your site's traction and organic search performance.",
+        "questionCount": 53,
+        "logoSrc": "/_astro/salesforce.akutLcKA.webp",
+        "href": "/preparation/company-wise-dsa-sheet/salesforce-dsa-interview-questions"
+      },
+      {
+        "name": "Adobe",
+        "description": "Accelerate your product-tier enterprise software placement preparation with the official Adobe DSA interview preparation sheet, custom-built for freshers, SDE-1, and SDE-2 aspirants. Adobe's premier engineering ecosystems place a strict premium on low-level string formatting algorithms, layout rendering trees, and memory-efficient media buffers. This production-grade dataset features 53 of the most frequently asked Adobe coding interview questions across mission-critical archetypes—including text-editor tier structures, multi-pointer array systems, dynamic programming parsers, and custom low-overhead memory caches. Integrated with direct LeetCode and GeeksforGeeks links alongside live candidate frequency tags, this tracking sheet will maximize your site's traction and organic search performance.",
+        "questionCount": 53,
+        "logoSrc": "/_astro/adobe.BZ5pvDv7.webp",
+        "href": "/preparation/company-wise-dsa-sheet/adobe-dsa-interview-questions"
+      },
+      {
+        "name": "Flipkart",
+        "description": "Accelerate your product company placement preparation with the official Flipkart DSA interview preparation sheet, custom-built for freshers, SDE-1, and SDE-2 aspirants. Flipkart's high-scale e-commerce engine demands robust logic capable of managing rapid inventory checkout streams, real-time recommendation matrices, and ultra-fast supply chain routing. This production-grade dataset features 54 of the most frequently asked Flipkart coding interview questions across mission-critical archetypes—including flash-sale sorting heaps, matrix pathfinding algorithms, transactional dynamic programming, and thread-safe shopping cart cache designs. Integrated with direct LeetCode and GeeksforGeeks links alongside live candidate popularity metrics, this tracking sheet will maximize your site's traction and organic search value.",
+        "questionCount": 54,
+        "logoSrc": "/_astro/flipcart.DqLSeFFV.webp",
+        "href": "/preparation/company-wise-dsa-sheet/flipkart-dsa-interview-questions"
+      },
+      {
+        "name": "PhonePe",
+        "description": "Accelerate your fintech interview preparation with the definitive PhonePe DSA preparation sheet, custom-engineered for freshers, SDE-1, and SDE-2 aspirants. PhonePe's hyper-scale transaction infrastructure demands highly optimized algorithmic logic capable of managing massive real-time UPI checkouts, microservices dependency flows, and high-concurrency ledger balances. This verified problem set contains 50 of the most frequently asked PhonePe coding interview questions across mission-critical archetypes—including transactional dynamic programming, graph-based routing paths, multi-heap data stream handlers, and thread-safe design structures. Equipped with direct LeetCode and GeeksforGeeks links alongside candidate frequency tags, this sheet is optimized to maximize user engagement and organic search value for your site.",
+        "questionCount": 50,
+        "logoSrc": "/_astro/phonepe.CHmvjxmp.webp",
+        "href": "/preparation/company-wise-dsa-sheet/phonepe-dsa-interview-questions"
+      },
+      {
+        "name": "Meesho",
+        "description": "Accelerate your high-scale product engineering placement preparation with the official premium Meesho SDE interview sheet, custom-built for SDE-1, SDE-2, and SDE-3 roles. Meesho's logistics networks, social commerce models, and high-concurrency order engines place an extreme premium on exceptional algorithmic efficiency, multi-threaded cache durability, and low-latency state mutations. This production-grade dataset features 55 premium, highly targeted coding questions across mission-critical archetypes—including real-time sliding window cache queries, monotonic order stacks, custom e-commerce machine coding frameworks, and dynamic warehouse distribution matrices. Outfitted with direct LeetCode and GeeksforGeeks links alongside candidate frequency tags, this asset will maximize user engagement and organic search traction for your platform.",
+        "questionCount": 55,
+        "logoSrc": "/_astro/meesho.fl6PlAOM.webp",
+        "href": "/preparation/company-wise-dsa-sheet/meesho-dsa-interview-questions"
+      },
+      {
+        "name": "CRED",
+        "description": "Accelerate your high-tier product company prep with the official CRED DSA interview preparation sheet, engineered for freshers, SDE-1, and SDE-2 roles. CRED's backend infrastructure demands highly optimized logic capable of handling massive transactional scales, gamified rewards distribution engines, and real-time credit profile filtering. This production-grade dataset includes 58 of the most frequently tracked CRED coding interview questions across critical structural archetypes—including low-latency cash caches, multi-pointer array allocations, range-query segment trees, and graph-based workflow dependencies. Outfitted with verified LeetCode and GeeksforGeeks links alongside live candidate frequency metrics, this sheet will maximize user traction and organic search positioning for your site.",
+        "questionCount": 58,
+        "logoSrc": "/_astro/cred.Ba2Oviu4.png",
+        "href": "/preparation/company-wise-dsa-sheet/cred-dsa-interview-questions"
+      },
+      {
+        "name": "Razorpay",
+        "description": "Accelerate your fintech interview readiness with the official Razorpay DSA preparation sheet, custom-built for freshers, SDE-1, and SDE-2 roles. Razorpay's high-scale payment processing ecosystem demands highly reliable, low-overhead algorithms capable of handling millions of concurrent monetary transfers, ledger state updates, and transactional security pipelines. This production-ready dataset features 50 of the most frequently asked Razorpay coding interview questions across foundational data structures and patterns—including multi-heap data routing, sliding window transaction metrics, greedy invoice management, and custom state cache designs. Integrated with direct LeetCode and GeeksforGeeks links alongside candidate frequency tags, this asset will maximize user engagement and organic search traction for your platform.",
+        "questionCount": 50,
+        "logoSrc": "/_astro/razorpay.zIp0gRrx.webp",
+        "href": "/preparation/company-wise-dsa-sheet/razorpay-dsa-interview-questions"
+      },
+      {
+        "name": "Zomato",
+        "description": "Supercharge your tech placement preparation with the official Zomato DSA interview preparation sheet, expertly structured for freshers, SDE-1, and SDE-2 roles. Zomato's engineering ecosystem demands highly optimized logic capable of handling geospatial mapping, instantaneous supply-demand matching, and massive concurrent request streams. This production-grade dataset includes 50 of the most frequently asked Zomato coding interview questions, covering essential algorithmic archetypes—including graph-based spatial routing, heap-driven order prioritizations, greedy delivery logistics, and multi-pointer array systems. Packed with verified LeetCode and GeeksforGeeks links alongside real-world popularity indexes, this data sheet is optimized to drive organic traffic and engagement to your platform.",
+        "questionCount": 50,
+        "logoSrc": "/_astro/zomato.D1KnCIIw.webp",
+        "href": "/preparation/company-wise-dsa-sheet/zomato-dsa-interview-questions"
+      },
+      {
+        "name": "Swiggy",
+        "description": "Accelerate your product-firm prep with the definitive Swiggy DSA interview preparation sheet, custom-built for freshers, SDE-1, and SDE-2 aspirants. Swiggy's tech loop places a critical emphasis on location tracking logistics, dispatch optimization, and high-throughput streaming systems. This verified problem set contains 50 of the most frequently asked Swiggy coding interview questions across fundamental structural archetypes—including real-time sliding windows, multi-pointer array manipulation, custom cache APIs, graph-based routing paths, and greedy resource allocations. Provided with active LeetCode and GeeksforGeeks links alongside real candidate frequency tags, this dataset will maximize organic search traffic and traction for your site.",
+        "questionCount": 50,
+        "logoSrc": "/_astro/swiggy.v1XeRQgS.webp",
+        "href": "/preparation/company-wise-dsa-sheet/swiggy-dsa-interview-questions"
+      },
+      {
+        "name": "Zepto",
+        "description": "Supercharge your instant-commerce interview prep with the official Zepto DSA preparation sheet, engineered specifically for freshers, SDE-1, and SDE-2 roles. Zepto's hyper-growth dark store infrastructure demands exceptionally lean, ultra-low-latency algorithms capable of handling rapid order pick-and-pack fulfillment, optimal route delivery mapping, and real-time multi-item inventory streams. This curated dataset features 54 of the most frequently asked Zepto coding interview questions spanning essential patterns—including quick-sorting heaps, real-time sliding window telemetry, greedy packaging allocations, and graph spatial traversals. Integrated with direct LeetCode and GeeksforGeeks links alongside real candidate frequency tags, this sheet will maximize your platform's organic visibility and user traction.",
+        "questionCount": 54,
+        "logoSrc": "/_astro/zeptonow.DOIZYq2g.webp",
+        "href": "/preparation/company-wise-dsa-sheet/zepto-dsa-interview-questions"
+      },
+      {
+        "name": "Paytm",
+        "description": "Accelerate your fintech placement preparation with the official Paytm DSA interview preparation sheet, custom-built for freshers, SDE-1, and SDE-2 roles. Paytm's high-scale fintech infrastructure demands optimized programming logic capable of managing massive transactional flows, secure digital ledger mappings, and ultra-fast fraud analytics. This production-grade dataset contains 50 of the most frequently asked Paytm coding interview questions across mission-critical archetypes—including transactional subsegment calculations, coin-based dynamic programming, graph dependencies, and custom hash architectures. Outfitted with verified LeetCode and GeeksforGeeks links alongside live candidate frequency indexes, this asset will maximize user engagement and organic search traction for your platform.",
+        "questionCount": 50,
+        "logoSrc": "/_astro/paytm.C8poZHw4.webp",
+        "href": "/preparation/company-wise-dsa-sheet/paytm-dsa-interview-questions"
+      },
+      {
+        "name": "ServiceNow",
+        "description": "Accelerate your cloud enterprise software placement preparation with the official ServiceNow DSA interview preparation sheet, custom-built for freshers, SDE-1, and SDE-2 aspirants. ServiceNow's massive cloud service ecosystems demand highly reliable, low-overhead algorithms capable of executing recursive workflow lifecycles, real-time ticket state tracking, and nested group hierarchies. This production-grade dataset features 54 of the most frequently asked ServiceNow coding interview questions across mission-critical archetypes—including topological workflow sorting graphs, low-latency log caches, hierarchical tree validations, and prefix string evaluators. Outfitted with direct LeetCode and GeeksforGeeks links alongside live candidate popularity tags, this tracking sheet will maximize your platform's user engagement and organic search value.",
+        "questionCount": 54,
+        "logoSrc": "/_astro/servicenow.CooWFjDf.webp",
+        "href": "/preparation/company-wise-dsa-sheet/servicenow-dsa-interview-questions"
+      },
+      {
+        "name": "Intuit",
+        "description": "Accelerate your product company placement preparation with the official Intuit DSA interview preparation sheet, custom-built for freshers, SDE-1, and SDE-2 aspirants. Intuit's financial software loops place a strict premium on low-overhead string formatting engines, relational dependency trees, and memory-efficient payroll data caches. This production-grade dataset features 53 of the most frequently asked Intuit coding interview questions across mission-critical archetypes—including tax calculation trees, dynamic programming parsers, workflow dependency graphs, and custom transaction caches. Integrated with direct LeetCode and GeeksforGeeks links alongside live candidate frequency tags, this tracking sheet will maximize your site's traction and organic search performance.",
+        "questionCount": 53,
+        "logoSrc": "/_astro/intuit.BGAdBtsA.webp",
+        "href": "/preparation/company-wise-dsa-sheet/intuit-dsa-interview-questions"
+      },
+      {
+        "name": "Walmart",
+        "description": "Accelerate your enterprise tech placement preparation with the official Walmart DSA interview preparation sheet, custom-built for freshers, SDE-1, and SDE-2 aspirants. Walmart Global Tech's infrastructure demands highly optimized algorithmic logic capable of managing massive retail distribution pipelines, real-time supply chain logistics, and high-concurrency transactional streams. This production-grade dataset features 55 of the most frequently asked Walmart coding interview questions across mission-critical archetypes—including supply chain routing graphs, real-time sliding window counters, inventory dynamic programming totals, and custom low-overhead memory caches. Integrated with direct LeetCode and GeeksforGeeks links alongside real candidate frequency tags, this tracking sheet will maximize your platform's user engagement and search rankings.",
+        "questionCount": 55,
+        "logoSrc": "/_astro/walmart.BgmJoAsI.webp",
+        "href": "/preparation/company-wise-dsa-sheet/walmart-dsa-interview-questions"
+      },
+      {
+        "name": "Goldman Sachs",
+        "description": "Accelerate your high-tier fintech placement preparation with the official Goldman Sachs DSA interview preparation sheet, custom-built for freshers, SDE-1, and SDE-2 aspirants. Goldman Sachs' quantitative engineering ecosystems demand optimized programming logic capable of handling deep mathematical computations, string patterns, and real-time ledger consistency. This production-grade dataset features 53 of the most frequently asked Goldman Sachs coding interview questions across mission-critical archetypes—including number theory, sliding window analytics, greedy resource allocations, and low-latency financial state designs. Integrated with direct LeetCode and GeeksforGeeks links alongside real candidate popularity metrics, this tracking sheet will maximize your site's organic traction and search engine ranking.",
+        "questionCount": 53,
+        "logoSrc": "/_astro/goldmansachs.BVxE3qxs.webp",
+        "href": "/preparation/company-wise-dsa-sheet/goldman-sachs-dsa-interview-questions"
+      },
+      {
+        "name": "J.P. Morgan Chase",
+        "description": "Accelerate your global investment banking placement preparation with the official J.P. Morgan Chase DSA interview preparation sheet, custom-built for freshers, SDE-1, and SDE-2 aspirants. JPMC's high-scale financial technology infrastructure demands robust programming logic capable of handling deep dynamic data streams, asset evaluation matrices, and consistent ledger transaction models. This production-grade dataset features 52 of the most frequently asked JPMorgan Chase coding interview questions across mission-critical archetypes—including combinatorics, array subsegment processing, transactional dynamic programming, and low-latency cache designs. Outfitted with direct LeetCode and GeeksforGeeks links alongside real candidate popularity metrics, this sheet will maximize user traction and search engine positioning for your site.",
+        "questionCount": 52,
+        "logoSrc": "/_astro/jpmorganchase.CJFqLDrl.webp",
+        "href": "/preparation/company-wise-dsa-sheet/jpmorgan-chase-dsa-interview-questions"
+      },
+      {
+        "name": "Morgan Stanley",
+        "description": "Preparing for a Morgan Stanley Technology Analyst or SDE interview in 2026? This DSA sheet is built around exactly what Morgan Stanley asks — a balanced mix of core data structures, OOP-heavy design questions, and finance-flavored problems around order books, transaction logs, and scheduling, reflecting the bank's massive trading and risk-management platforms. Morgan Stanley's coding rounds typically move fast through 2-3 problems per interview, rewarding candidates who can write clean, bug-free code under time pressure and reason clearly about complexity. This sheet compiles 60 of the most frequently reported Morgan Stanley interview questions sourced from LeetCode and GeeksforGeeks, tagged by topic, difficulty, and real candidate-reported frequency, so you prep with precision instead of grinding everything on the internet.",
+        "questionCount": 60,
+        "logoSrc": "/_astro/morganstanley.CP6Sej9z.webp",
+        "href": "/preparation/company-wise-dsa-sheet/morgan-stanley-dsa-interview-questions"
+      },
+      {
+        "name": "Oracle",
+        "description": "Accelerate your enterprise tech placement preparation with the official Oracle DSA interview preparation sheet, custom-built for freshers, SDE-1, and SDE-2 aspirants. Oracle's core engineering loops place a strict premium on database scalability, robust transaction caching, and efficient relational indexing architectures. This production-grade dataset features 52 of the most frequently asked Oracle coding interview questions across mission-critical archetypes—including advanced binary tree validations, low-latency transaction cache designs, multi-pointer sorting logic, and matrix data traversals. Integrated with direct LeetCode and GeeksforGeeks links alongside real candidate popularity metrics, this tracking sheet will maximize your site's traction and organic search performance.",
+        "questionCount": 52,
+        "logoSrc": "/_astro/oracle.eEuLVWB7.webp",
+        "href": "/preparation/company-wise-dsa-sheet/oracle-dsa-interview-questions"
+      },
+      {
+        "name": "Cisco",
+        "description": "Accelerate your enterprise networking and systems engineering prep with the official Cisco DSA interview preparation sheet, custom-built for freshers, SDE-1, and SDE-2 aspirants. Cisco's deep routing and platform systems loops place a strict premium on low-overhead string protocols, bitwise subnet masks, and matrix route optimizations. This production-grade dataset features 54 of the most frequently asked Cisco coding interview questions across mission-critical archetypes—including packet validation bit manipulation, network graph traversals, sliding window buffer streams, and low-latency prefix match trie architectures. Integrated with direct LeetCode and GeeksforGeeks links alongside live candidate frequency tags, this tracking sheet will maximize your platform's organic search visibility and traction.",
+        "questionCount": 54,
+        "logoSrc": "/_astro/cisco.So42XoK2.webp",
+        "href": "/preparation/company-wise-dsa-sheet/cisco-dsa-interview-questions"
+      },
+      {
+        "name": "Visa",
+        "description": "Accelerate your fintech engineering career with the official Visa DSA interview preparation sheet, meticulously tailored for freshers, SDE-1, and SDE-2 roles. Visa's global transaction processing core demands exceptionally scalable, fault-tolerant programming logic capable of executing massive real-time tokenizations, payment clearance routing, and high-frequency ledger integrity audits. This production-grade dataset features 51 of the most frequently asked Visa coding interview questions across mission-critical archetypes—including optimized transaction subsegment sums, change-making dynamic programming, security graph mappings, and high-performance caching design patterns. Integrated with direct LeetCode and GeeksforGeeks links alongside live candidate popularity indices, this tracking sheet will maximize user engagement and organic search value for your site.",
+        "questionCount": 51,
+        "logoSrc": "/_astro/visa.DibXX1kq.webp",
+        "href": "/preparation/company-wise-dsa-sheet/visa-dsa-interview-questions"
+      },
+      {
+        "name": "Mastercard",
+        "description": "Crack your Mastercard SDE interview in 2026 with this handpicked DSA sheet — the fastest way to prepare for Mastercard coding rounds without wasting hours scrolling random blogs. Mastercard's fintech-grade payment systems demand rock-solid fundamentals in arrays, strings, hashing, and object-oriented design, alongside the ability to reason about transaction-scale data under tight time and space constraints. This sheet compiles 61 of the most frequently asked Mastercard interview questions on LeetCode and GeeksforGeeks, covering high-frequency patterns like sliding window, two pointers, dynamic programming, tree/graph traversal, and system-style design problems. Each question is tagged by topic, difficulty, and real candidate-reported frequency, so you spend your prep time on what actually gets asked — not everything under the sun. Bookmark this Mastercard coding interview questions sheet and start solving smarter today.",
+        "questionCount": 61,
+        "logoSrc": "/_astro/mastercard.DSewkRdi.webp",
+        "href": "/preparation/company-wise-dsa-sheet/mastercard-dsa-interview-questions"
+      },
+      {
+        "name": "Barclays",
+        "description": "Gearing up for a Barclays Technology Analyst or Software Engineer interview in 2026? This DSA sheet is mapped to what Barclays actually tests in its coding rounds and technical interviews — a solid mix of arrays, strings, and hash-based problems, linked list and tree fundamentals, and OOP-heavy design questions inspired by real banking systems like account ledgers, transaction processing, and order matching. Barclays interviews typically move through 2-3 problems per round, rewarding candidates who write clean, correct code quickly and can reason confidently about time and space complexity. This sheet compiles 57 of the most frequently reported Barclays interview questions sourced from LeetCode and GeeksforGeeks, tagged by topic, difficulty, and candidate-reported popularity — so you prepare with focus instead of guesswork.",
+        "questionCount": 57,
+        "logoSrc": "/_astro/barclays.B1sVf9h3.webp",
+        "href": "/preparation/company-wise-dsa-sheet/barclays-dsa-interview-questions"
+      },
+      {
+        "name": "HSBC",
+        "description": "Got an HSBC Software Engineer or Technology Graduate interview coming up in 2026? This DSA sheet is tailored to what HSBC actually asks — a practical mix of arrays, strings, and hash-based problems, core linked list and tree fundamentals, and a handful of OOP design questions drawn from real banking workflows like account management and transaction processing. HSBC's coding rounds tend to favor strong fundamentals and clean logic over obscure edge cases, so consistency across easy-to-medium problems matters more than chasing hard-only prep. This sheet compiles 52 of the most frequently reported HSBC interview questions from LeetCode and GeeksforGeeks, tagged by topic, difficulty, and candidate-reported popularity, giving you a focused, no-fluff path to interview-ready.",
+        "questionCount": 52,
+        "logoSrc": "/_astro/hsbc.7HtjvzTJ.webp",
+        "href": "/preparation/company-wise-dsa-sheet/hsbc-dsa-interview-questions"
+      },
+      {
+        "name": "Accenture",
+        "description": "Appearing for Accenture's mass-hiring drive — coding assessment, technical interview, or off-campus placement — in 2026? This DSA sheet is built specifically around Accenture's standardized coding rounds, where the focus stays on solid fundamentals in arrays, strings, and basic logic-building rather than hard-level algorithmic tricks. Accenture's technical rounds typically pair a coding round with questions on OOP concepts, basic DBMS, and simple pattern-based problems, since thousands of freshers move through the same assessment pipeline every hiring cycle. This sheet compiles 54 of the most frequently asked Accenture interview and coding-round questions from LeetCode and GeeksforGeeks, tagged by topic, difficulty, and candidate-reported popularity — a fast, focused way to prep for Accenture's high-volume campus and off-campus hiring process.",
+        "questionCount": 54,
+        "logoSrc": "/_astro/accenture.VfbmfyLU.webp",
+        "href": "/preparation/company-wise-dsa-sheet/accenture-dsa-interview-questions"
+      },
+      {
+        "name": "TCS + TCS NQT",
+        "description": "Master the TCS recruitment pipeline with this comprehensive, high-yield preparation sheet featuring 75 highly recurring coding questions aggregated from recent TCS NQT, Digital, and Prime hiring assessments. The dataset spans from basic numerical and logical automation (crucial for passing the mandatory NQT sections) to advanced algorithmic designs required for Digital and Prime bands. Use this verified production-grade dataset—fully shuffled and equipped with active LeetCode and GeeksforGeeks links—to scale traffic, organic indexing, and structural candidate prep on your platform.",
+        "questionCount": 75,
+        "logoSrc": "/_astro/tcs.B4EtXpV5.webp",
+        "href": "/preparation/company-wise-dsa-sheet/tcs-dsa-interview-questions"
+      },
+      {
+        "name": "Infosys",
+        "description": "Crack the Infosys recruitment rounds with this definitive, high-yield DSA preparation sheet containing 72 highly repeated coding questions aggregated from recent InfyTQ, HackWithInfy, and DSE/SP national hiring drives. Infosys' technical screening assessments place a high emphasis on array logic filtering, mathematical string patterns, modular recursion transformations, and structural greedy allocations. Use this production-grade, cleanly shuffled dataset—equipped with direct LeetCode and GeeksforGeeks links—to significantly boost user engagement, session duration, and organic search ranking metrics on your prep platform.",
+        "questionCount": 72,
+        "logoSrc": "/_astro/infosys.D_cWL_1e.webp",
+        "href": "/preparation/company-wise-dsa-sheet/infosys-dsa-interview-questions"
+      },
+      {
+        "name": "Cognizant",
+        "description": "Crack the Cognizant technical assessment with this definitive, high-yield DSA preparation sheet featuring 74 highly recurring coding questions aggregated from recent GenC, GenC Elevate, and GenC Next mass hiring loops. Cognizant's technical evaluation framework heavily targets proficiency in foundational data handling, logical loops, element filtering, and multi-pointer search arrays. Use this verified production-ready dataset—complete with direct LeetCode and GeeksforGeeks links alongside real student frequency indexes—to significantly scale traffic, organic search indexing, and candidate utility on your tracking platform.",
+        "questionCount": 74,
+        "logoSrc": "/_astro/cognizant.AOXDHuTk.webp",
+        "href": "/preparation/company-wise-dsa-sheet/cognizant-dsa-interview-questions"
+      },
+      {
+        "name": "Wipro",
+        "description": "Excellently prepare for the Wipro talent gateway with this high-yield DSA preparation sheet containing 73 highly recurring coding questions aggregated from recent Wipro Elite NQT and Wipro Turbo assessment cycles. The dataset covers everything from modular numeric loop processing and string reversals (frequently asked in Elite evaluation benchmarks) to complex dynamic algorithms and multi-pointer array systems needed to qualify for the Turbo tier. This verified production-ready data block—fully shuffled and equipped with active LeetCode and GeeksforGeeks links—is custom-tailored to boost applicant test scores and maximize user conversion metrics on your technical platform.",
+        "questionCount": 73,
+        "logoSrc": "/_astro/wipro.ByimKOPc.webp",
+        "href": "/preparation/company-wise-dsa-sheet/wipro-dsa-interview-questions"
+      },
+      {
+        "name": "HCLTech",
+        "description": "Crack the HCLTech technical selection engine with this definitive, high-yield DSA preparation sheet containing 74 highly recurring coding questions aggregated from recent Graduate Engineer Trainee (GET), Software Engineer (SE), and campus mass hiring drives. HCLTech's screening framework strictly tests rapid code implementation, logic loops, basic numerical math conversions, and structural string operations under tight timelines. Use this fully shuffled, production-grade dataset—loaded with direct LeetCode and GeeksforGeeks links alongside live popularity tags—to dramatically scale user engagement, crawl metrics, and structural candidate traction on your site.",
+        "questionCount": 74,
+        "logoSrc": "/_astro/hcltech.Cszv0ymQ.jpg",
+        "href": "/preparation/company-wise-dsa-sheet/hcl-dsa-interview-questions"
+      },
+      {
+        "name": "Tech Mahindra",
+        "description": "Supercharge your tech placement prep with the official Tech Mahindra DSA interview sheet, custom-built for freshers targeting standard Associate Software Engineer loops and Premium Track bands. Tech Mahindra's national assessments test rapid loop automation, logical array filtrations, bitwise checks, and string parsers. This production-grade dataset features 75 of the most frequently asked Tech Mahindra coding interview questions across critical assessment archetypes—including sliding window token buffers, absolute differences, dynamic pricing matrices, and matrix routes. Complete with direct LeetCode and GeeksforGeeks links alongside real candidate popularity tags, this sheet will maximize your platform's organic search indexing and user traction.",
+        "questionCount": 75,
+        "logoSrc": "/_astro/techmahindra.CHv9LrnU.webp",
+        "href": "/preparation/company-wise-dsa-sheet/tech-mahindra-dsa-interview-questions"
+      },
+      {
+        "name": "Capgemini",
+        "description": "Preparing for Capgemini's mass-hiring drive — Pseudocode round, technical interview, or off-campus placement — in 2026? This DSA sheet is built around exactly what Capgemini's coding evaluations test: strong fundamentals in arrays, strings, and basic recursion, straightforward dynamic programming, and core OOP concepts, since the pseudocode and coding rounds are standardized across thousands of candidates each hiring cycle. Capgemini rewards clean logic, correct output on the first try, and confident explanations over exotic optimizations. This sheet compiles 53 of the most frequently asked Capgemini interview and coding-round questions from LeetCode and GeeksforGeeks, tagged by topic, difficulty, and candidate-reported popularity — a focused, no-fluff prep list for Capgemini's high-volume hiring process.",
+        "questionCount": 53,
+        "logoSrc": "/_astro/capgemini.CDNXQLch.webp",
+        "href": "/preparation/company-wise-dsa-sheet/capgemini-dsa-interview-questions"
+      }
+    ]
+  }
+]

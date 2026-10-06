@@ -1,0 +1,230 @@
+{
+  "categories": [
+    {
+      "title": "Core Subjects",
+      "questions": [
+        {
+          "title": "DBMS Questions",
+          "icon": "/_astro/dbms.DmgATya6.png",
+          "href": "/preparation/most-asked-questions/dbms-questions",
+          "description": "A strategic collection of frequently asked DBMS interview questions covering everything from fundamentals and normalization to concurrency control and modern NoSQL architectures. Designed for technical interview mastery.",
+          "questionCount": 210
+        },
+        {
+          "title": "OS Questions",
+          "icon": "/_astro/os.BkQ1Ej-z.png",
+          "href": "/preparation/most-asked-questions/os-questions",
+          "description": "Comprehensive collection of OS interview questions covering fundamentals, kernel architecture, hardware interfaces, and process concepts. Each answer is technical and interview-ready.",
+          "questionCount": 270
+        },
+        {
+          "title": "OOPS Questions",
+          "icon": "/_astro/oop.ZmPxKQgt.png",
+          "href": "/preparation/most-asked-questions/oops-questions",
+          "description": "A comprehensive collection of Object-Oriented Programming questions covering core principles, inheritance, and encapsulation. Designed for technical interview preparation.",
+          "questionCount": 150
+        },
+        {
+          "title": "Computer Networks Questions",
+          "icon": "/_astro/cn.BO4WkHXR.png",
+          "href": "/preparation/most-asked-questions/cn-questions",
+          "description": "A comprehensive collection of Computer Networking interview questions covering basics, OSI layers, protocols, and IP addressing. Perfect for technical screenings.",
+          "questionCount": 100
+        }
+      ]
+    },
+    {
+      "title": "Web Development",
+      "questions": [
+        {
+          "title": "JavaScript Questions",
+          "icon": "/_astro/javascript.BtpOR5m6.svg",
+          "href": "/preparation/most-asked-questions/javascript-questions",
+          "description": "Comprehensive collection of the most frequently asked JavaScript interview questions covering fundamentals, ES6+, async programming, DOM manipulation, objects, arrays, functions, and advanced concepts. Each answer is concise, detailed, and interview-ready.",
+          "questionCount": 108
+        },
+        {
+          "title": "TypeScript Questions",
+          "icon": "/_astro/typescript.C9-blvjE.svg",
+          "href": "/preparation/most-asked-questions/typescript-questions",
+          "description": "A focused collection of the most critical TypeScript interview questions covering type system internals, advanced types, and best practices for modern development.",
+          "questionCount": 50
+        },
+        {
+          "title": "React.js Questions",
+          "icon": "/_astro/react.DLVUOSH5.svg",
+          "href": "/preparation/most-asked-questions/reactjs-questions",
+          "description": "Comprehensive collection of the most frequently asked React JS interview questions covering fundamentals, hooks, routing, testing, and advanced concepts. Each answer is concise and interview-ready.",
+          "questionCount": 100
+        },
+        {
+          "title": "Node.js Questions",
+          "icon": "/_astro/nodejs.CVZM23Oj.svg",
+          "href": "/preparation/most-asked-questions/nodejs-questions",
+          "description": "Comprehensive collection of the most frequently asked Node.js interview questions covering fundamentals, asynchronous programming, streams, clustering, security, and advanced concepts. Each answer is concise, detailed, and interview-ready.",
+          "questionCount": 106
+        },
+        {
+          "title": "Next.js Questions",
+          "icon": "/_astro/nextjs.Darsyj77.png",
+          "href": "/preparation/most-asked-questions/nextjs-questions",
+          "description": "Comprehensive collection of Next.js interview questions covering fundamentals, the App Router, rendering strategies (SSR, SSG, ISR), and core components. Essential for modern web developers.",
+          "questionCount": 175
+        },
+        {
+          "title": "Git & GitHub Questions",
+          "icon": "/_astro/git.B-b-1tfD.svg",
+          "href": "/preparation/most-asked-questions/git-github-questions",
+          "description": "Comprehensive guide to Version Control basics, core Git commands, branching strategies, and remote synchronization. Essential for developers and DevOps engineers.",
+          "questionCount": 200
+        },
+        {
+          "title": "Spring Boot Questions",
+          "icon": "/_astro/springio.ZVsv_igq.svg",
+          "href": "/preparation/most-asked-questions/spring-boot-questions",
+          "description": "Comprehensive Spring Boot guide covering Introduction, Architecture, Configuration, and IoC/DI. Each answer is technically rigorous for professional interviews.",
+          "questionCount": 225
+        },
+        {
+          "title": "Angular Questions",
+          "icon": "/_astro/angular.nT5MdawT.svg",
+          "href": "/preparation/most-asked-questions/angular-questions",
+          "description": "Deep-dive into Angular fundamentals, TypeScript integration, MVVM architecture, and component-template interactions.",
+          "questionCount": 310
+        }
+      ]
+    },
+    {
+      "title": "Programming Languages",
+      "questions": [
+        {
+          "title": "C++ Questions",
+          "icon": "/_astro/cplusplus.CZEmcGH9.svg",
+          "href": "/preparation/most-asked-questions/cpp-questions",
+          "description": "A comprehensive guide to C++ interview questions covering core syntax, object-oriented programming, and memory management. Essential for developers preparing for technical rounds.",
+          "questionCount": 130
+        },
+        {
+          "title": "Java Questions",
+          "icon": "/_astro/java.B9Whfg8T.svg",
+          "href": "/preparation/most-asked-questions/java-questions",
+          "description": "Comprehensive collection of the most frequently asked Java interview questions covering fundamentals, OOP concepts, collections, multithreading, exception handling, JVM internals, and advanced topics. Each answer is concise, detailed, and interview-ready.",
+          "questionCount": 110
+        },
+        {
+          "title": "Python Questions",
+          "icon": "/_astro/python.HT_z5JOp.svg",
+          "href": "/preparation/most-asked-questions/python-questions",
+          "description": "Deep-dive into Python internals, memory management, and advanced features. This list avoids generic DSA and focuses on language-specific mechanics.",
+          "questionCount": 170
+        },
+        {
+          "title": "Rust Questions",
+          "icon": "/_astro/rust.Ch4TbLpA.png",
+          "href": "/preparation/most-asked-questions/rust-questions",
+          "description": "A deep-dive collection of Rust interview questions covering the borrow checker, ownership, lifetimes, and systems programming patterns. Designed for high-level technical evaluation.",
+          "questionCount": 100
+        },
+        {
+          "title": "Go Questions",
+          "icon": "/_astro/go.CPdnxH1I.svg",
+          "href": "/preparation/most-asked-questions/go-questions",
+          "description": "A comprehensive collection of Go interview questions covering language syntax, concurrency primitives, memory management, and idiomatic patterns. Designed for technical screenings and deep-dives.",
+          "questionCount": 100
+        }
+      ]
+    },
+    {
+      "title": "Mobile Development",
+      "questions": [
+        {
+          "title": "React Native Questions",
+          "icon": "/_astro/react_native.vAEvIK96.svg",
+          "href": "/preparation/most-asked-questions/react-native-questions",
+          "description": "Comprehensive guide covering React Native fundamentals, Architecture, Styling, and Component Communication. Each answer is technically rigorous for professional interviews.",
+          "questionCount": 250
+        },
+        {
+          "title": "Swift Questions",
+          "icon": "/_astro/swift.C2o9-7vr.svg",
+          "href": "/preparation/most-asked-questions/swift-questions",
+          "description": "Deep-dive into Swift core fundamentals, Optional safety, and ARC memory management. Essential for junior to senior level iOS roles.",
+          "questionCount": 350
+        },
+        {
+          "title": "Flutter Questions",
+          "icon": "/_astro/flutterio.6mnPfiEd.svg",
+          "href": "/preparation/most-asked-questions/flutter-questions",
+          "description": "Foundational concepts covering architecture, the rendering engine, and core differences from other frameworks.",
+          "questionCount": 200
+        },
+        {
+          "title": "Android Questions",
+          "icon": "/_astro/android.CXSYjzky.svg",
+          "href": "/preparation/most-asked-questions/android-questions",
+          "description": "Comprehensive guide covering Android Fundamentals, Lifecycle, Architecture Patterns, Jetpack, Kotlin, and Security.",
+          "questionCount": 112
+        }
+      ]
+    },
+    {
+      "title": "DevOps",
+      "questions": [
+        {
+          "title": "AWS Questions",
+          "icon": "/_astro/aws.D-HJMglE.svg",
+          "href": "/preparation/most-asked-questions/aws-questions",
+          "description": "Technical guide covering AWS Cloud Fundamentals, Compute, Storage, Networking, Security, and DevOps practices.",
+          "questionCount": 229
+        },
+        {
+          "title": "Docker Questions",
+          "icon": "/_astro/docker.ryaV3wLb.svg",
+          "href": "/preparation/most-asked-questions/docker-questions",
+          "description": "Comprehensive technical guide covering Docker Architecture, Images, Networking, Volumes, Orchestration (Swarm/K8s), and Security.",
+          "questionCount": 149
+        },
+        {
+          "title": "Kubernetes Questions",
+          "icon": "/_astro/kubernetes.Bn71V9vc.svg",
+          "href": "/preparation/most-asked-questions/kuberneties-questions",
+          "description": "A deep-dive technical guide covering K8s Architecture, Workloads, Networking, Storage, Security, and Troubleshooting scenarios.",
+          "questionCount": 200
+        },
+        {
+          "title": "Terraform Questions",
+          "icon": "/_astro/terraform.BjNZFyuQ.jpg",
+          "href": "/preparation/most-asked-questions/terraform-questions",
+          "description": "Comprehensive technical guide covering Terraform HCL, State Management, Modules, Providers, and CI/CD best practices.",
+          "questionCount": 141
+        }
+      ]
+    },
+    {
+      "title": "Databases",
+      "questions": [
+        {
+          "title": "PostgreSQL Questions",
+          "icon": "/_astro/postgresql.BWsZy1f9.svg",
+          "href": "/preparation/most-asked-questions/postgreSQL-questions",
+          "description": "A comprehensive guide covering PostgreSQL fundamentals, architecture, MVCC, indexing, performance tuning, and modern cloud deployment.",
+          "questionCount": 79
+        },
+        {
+          "title": "MongoDB Questions",
+          "icon": "/_astro/mongodb.kN5PF7Mx.svg",
+          "href": "/preparation/most-asked-questions/mongodb-questions",
+          "description": "A comprehensive guide covering MongoDB fundamentals, CRUD operations, indexing, aggregation, sharding, and production best practices.",
+          "questionCount": 110
+        },
+        {
+          "title": "Redis Questions",
+          "icon": "/_astro/redis.Dp9nX1bB.svg",
+          "href": "/preparation/most-asked-questions/redis-questions",
+          "description": "A comprehensive guide covering Redis fundamentals, data types, persistence, performance, scaling, and advanced features.",
+          "questionCount": 100
+        }
+      ]
+    }
+  ]
+}
